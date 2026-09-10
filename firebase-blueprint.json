@@ -1,0 +1,79 @@
+{
+  "entities": {
+    "users": {
+      "title": "User",
+      "description": "Registered user profiles",
+      "properties": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "email": { "type": "string" },
+        "avatar": { "type": "string" },
+        "createdAt": { "type": "string" },
+        "targetExam": { "type": "string" },
+        "streakDays": { "type": "number" },
+        "xp": { "type": "number" }
+      },
+      "required": ["id", "name", "email"]
+    },
+    "questions": {
+      "title": "Question",
+      "description": "Multiple choice questions",
+      "properties": {
+        "id": { "type": "string" },
+        "text": { "type": "string" },
+        "options": { "type": "array", "items": { "type": "string" } },
+        "correctOptionIndex": { "type": "number" },
+        "explanation": { "type": "string" },
+        "subject": { "type": "string" },
+        "topic": { "type": "string" },
+        "difficulty": { "type": "string" },
+        "tags": { "type": "array", "items": { "type": "string" } }
+      },
+      "required": ["id", "text", "options", "correctOptionIndex", "subject", "topic"]
+    },
+    "attempts": {
+      "title": "QuizAttempt",
+      "description": "Completed quiz attempts",
+      "properties": {
+        "id": { "type": "string" },
+        "userId": { "type": "string" },
+        "quizTitle": { "type": "string" },
+        "subject": { "type": "string" },
+        "mode": { "type": "string" },
+        "startedAt": { "type": "string" },
+        "completedAt": { "type": "string" },
+        "durationSeconds": { "type": "number" },
+        "totalScore": { "type": "number" },
+        "maxScore": { "type": "number" },
+        "correctCount": { "type": "number" },
+        "incorrectCount": { "type": "number" },
+        "skippedCount": { "type": "number" },
+        "accuracyPercentage": { "type": "number" },
+        "responses": { "type": "array" }
+      },
+      "required": ["id", "userId", "quizTitle", "subject"]
+    },
+    "bookmarks": {
+      "title": "UserBookmark",
+      "description": "Question bookmarks",
+      "properties": {
+        "id": { "type": "string" },
+        "userId": { "type": "string" },
+        "questionId": { "type": "string" },
+        "createdAt": { "type": "string" }
+      },
+      "required": ["id", "userId", "questionId"]
+    },
+    "notes": {
+      "title": "UserNote",
+      "description": "Personal question notes",
+      "properties": {
+        "userId": { "type": "string" },
+        "questionId": { "type": "string" },
+        "note": { "type": "string" },
+        "updatedAt": { "type": "string" }
+      },
+      "required": ["userId", "questionId", "note"]
+    }
+  }
+}

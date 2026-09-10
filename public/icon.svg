@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#312E81" />
+      <stop offset="50%" stop-color="#4338CA" />
+      <stop offset="100%" stop-color="#4F46E5" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="100%" stop-color="#FBBF24" />
+    </linearGradient>
+    <linearGradient id="capGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#E0E7FF" />
+    </linearGradient>
+    <filter id="dropShadow" x="-10%" y="-10%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0F172A" flood-opacity="0.45" />
+    </filter>
+  </defs>
+
+  <!-- Background rounded squircle -->
+  <rect width="512" height="512" rx="112" fill="url(#bgGrad)" />
+
+  <!-- Inner border ring -->
+  <rect x="24" y="24" width="464" height="464" rx="92" fill="none" stroke="#6366F1" stroke-width="4" stroke-opacity="0.4" />
+
+  <!-- Central Academic Symbol Group with Shadow -->
+  <g filter="url(#dropShadow)">
+    <!-- Graduation Cap Top Rhombus -->
+    <path d="M 256 120 L 416 195 L 256 270 L 96 195 Z" fill="url(#capGrad)" />
+
+    <!-- Cap Underneath Arch -->
+    <path d="M 160 232 L 160 300 C 160 350 352 350 352 300 L 352 232 L 256 276 Z" fill="#EEF2FF" />
+
+    <!-- Golden Tassel & Band -->
+    <path d="M 256 195 L 396 230 L 404 315 C 404 325 388 325 388 315 L 392 245 Z" fill="url(#goldGrad)" />
+    <circle cx="256" cy="195" r="9" fill="url(#goldGrad)" />
+
+    <!-- Open Book / Question Bank Base Symbol -->
+    <path d="M 140 340 C 190 325 250 335 256 345 C 262 335 322 325 372 340 L 372 400 C 320 385 264 395 256 405 C 248 395 192 385 140 400 Z" fill="#FFFFFF" fill-opacity="0.95" />
+    <!-- Spine dividing line -->
+    <line x1="256" y1="345" x2="256" y2="405" stroke="#4F46E5" stroke-width="4" stroke-linecap="round" />
+
+    <!-- Star of Excellence in Center -->
+    <polygon points="256,365 260,375 271,375 262,382 265,392 256,386 247,392 250,382 241,375 252,375" fill="url(#goldGrad)" />
+  </g>
+</svg>

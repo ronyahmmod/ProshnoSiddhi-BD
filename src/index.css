@@ -1,0 +1,63 @@
+@import "tailwindcss";
+@import "katex/dist/katex.min.css";
+
+@layer base {
+  :root {
+    --bg-page: #F8FAFC;
+    --card-surface: #FFFFFF;
+    --primary-main: #4F46E5;
+    --primary-dark: #1E1B4B;
+    --accent-indigo-soft: #818CF8;
+    --accent-amber: #F59E0B;
+    --text-primary-dark: #0F172A;
+    --text-secondary-muted: #64748B;
+    --border-outline: #E2E8F0;
+    --status-green: #10B981;
+  }
+
+  body {
+    background-color: #F8FAFC;
+    color: #0F172A;
+    font-family: 'Plus Jakarta Sans', 'Hind Siliguri', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Custom smooth transitions & micro-interactions */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 9999px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
+
+/* MathJax & KaTeX Spacing & Mobile View Optimization */
+.math-rendered-content {
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+.math-rendered-content .katex {
+  font-size: 1.05em;
+  max-width: 100%;
+}
+.math-rendered-content .katex-inline-formula {
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+  padding-left: 0.125rem;
+  padding-right: 0.125rem;
+  vertical-align: -0.1em;
+}
+.math-rendered-content .katex-display-block {
+  max-width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}

@@ -1,0 +1,32 @@
+{
+  "id": "/",
+  "name": "ProshnoSiddhi BD (প্রশ্নসিদ্ধি)",
+  "short_name": "ProshnoBD",
+  "description": "Smart BCS, Bank, GRE & Govt Job Question Bank with LaTeX MathJax formulas & Mock Tests",
+  "theme_color": "#4F46E5",
+  "background_color": "#ffffff",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "start_url": "/",
+  "scope": "/",
+  "icons": [
+    {
+      "src": "/pwa-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/pwa-maskable-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

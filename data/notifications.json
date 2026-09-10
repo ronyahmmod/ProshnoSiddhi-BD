@@ -1,0 +1,72 @@
+[
+  {
+    "id": "notif-1788619146202-uaqk",
+    "title": "PR #105: ADD proposed by Tanvir Hossain (Free Student)",
+    "message": "Tanvir Hossain (Free Student) (CLIENT) submitted commit: \"Added standard 20% markup calculation with Bengali explanation.\". Pending Admin review.",
+    "type": "MODERATOR_NOTICE",
+    "senderName": "Tanvir Hossain (Free Student)",
+    "senderRole": "CLIENT",
+    "senderAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150&auto=format&fit=crop&q=80",
+    "priority": "HIGH",
+    "targetGroup": "ALL",
+    "linkTab": "admin-proposals",
+    "createdAt": "2026-09-05T14:39:06.202Z",
+    "read": false
+  },
+  {
+    "id": "notif-1788553626853-v4qv",
+    "title": "PR #104: BULK_IMPORT proposed by Farhan Ahmed (Student Moderator)",
+    "message": "Farhan Ahmed (Student Moderator) (MODERATOR) submitted commit: \"feat(batch-import): Upload 59 questions from spreadsheet\". Pending Admin review.",
+    "type": "MODERATOR_NOTICE",
+    "senderName": "Farhan Ahmed (Student Moderator)",
+    "senderRole": "MODERATOR",
+    "senderAvatar": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&auto=format&fit=crop&q=80",
+    "priority": "HIGH",
+    "targetGroup": "ALL",
+    "linkTab": "admin-proposals",
+    "createdAt": "2026-09-04T20:27:06.853Z",
+    "read": true
+  },
+  {
+    "id": "notif-sms-1",
+    "title": "SMS Alert: Bangladesh Bank Officer (Cash) Admit Card Published",
+    "message": "Dear Candidate, Bangladesh Bank Bankers Selection Committee has released the Preliminary Admit Card for Officer (Cash). Download your roll-wise admit card from bb.org.bd before exam day.",
+    "type": "SMS_ALERT",
+    "senderName": "Bangladesh Bank Exam Cell",
+    "senderRole": "MODERATOR",
+    "senderAvatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=100&auto=format&fit=crop&q=80",
+    "priority": "HIGH",
+    "targetGroup": "ALL",
+    "linkTab": "bank",
+    "createdAt": "2026-09-04T19:11:31.282Z",
+    "read": false
+  },
+  {
+    "id": "notif-bpsc-2",
+    "title": "BPSC Notice: 46th BCS Preliminary Venue & Seat Distribution Released",
+    "message": "Official announcement from BPSC: Exam center instructions, prohibited electronic devices, and time schedule have been finalized. Please review the syllabus breakdown on ProshnoSiddhi BD.",
+    "type": "ANNOUNCEMENT",
+    "senderName": "Engineer Md. Rony Ahmmod",
+    "senderRole": "SUPER_ADMIN",
+    "senderAvatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&auto=format&fit=crop&q=80",
+    "priority": "URGENT",
+    "targetGroup": "ALL",
+    "linkTab": "blog",
+    "createdAt": "2026-09-04T16:46:31.282Z",
+    "read": false
+  },
+  {
+    "id": "notif-exam-3",
+    "title": "New Model Test: General Knowledge Bangladesh & Constitution 200 Marks",
+    "message": "A brand new full-length 200-mark mock test is now live with strict negative marking (0.5 per error) matching the actual BPSC BCS Preliminary standard. Test your ranking now!",
+    "type": "EXAM_REMINDER",
+    "senderName": "Academic Review Committee",
+    "senderRole": "EDITOR",
+    "senderAvatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&auto=format&fit=crop&q=80",
+    "priority": "NORMAL",
+    "targetGroup": "ALL",
+    "linkTab": "bank",
+    "createdAt": "2026-09-04T05:46:31.282Z",
+    "read": false
+  }
+]

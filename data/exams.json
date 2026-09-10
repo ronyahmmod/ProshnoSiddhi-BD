@@ -1,0 +1,74 @@
+[
+  {
+    "id": "exam-bcs",
+    "name": "46th & 45th BCS Cadre Preliminary",
+    "code": "BCS",
+    "description": "Bangladesh Civil Service Preliminary & Written Examination covering 200 marks syllabus.",
+    "subjects": [
+      "Bangladesh Affairs",
+      "International Affairs",
+      "Bengali Language",
+      "English",
+      "Mathematics",
+      "General Science",
+      "Computer Science"
+    ],
+    "color": "#059669",
+    "icon": "GraduationCap"
+  },
+  {
+    "id": "exam-bank",
+    "name": "Combined 10 Banks Officer & Senior Officer",
+    "code": "Bank",
+    "description": "Bangladesh Bank AD, Sonali, Janata, Agrani, Rupali Combined recruitment questions.",
+    "subjects": [
+      "Mathematics",
+      "English",
+      "General Knowledge",
+      "Computer Science",
+      "Bangladesh Affairs"
+    ],
+    "color": "#2563eb",
+    "icon": "Building2"
+  },
+  {
+    "id": "exam-gre",
+    "name": "GRE General Examination (Quant & Verbal)",
+    "code": "GRE",
+    "description": "Quantitative Reasoning, Verbal Reasoning, and Analytical Writing for global masters/PhD admission.",
+    "subjects": [
+      "Mathematics",
+      "English"
+    ],
+    "color": "#7c3aed",
+    "icon": "Award"
+  },
+  {
+    "id": "exam-primary",
+    "name": "Primary Assistant Teacher & NTRCA",
+    "code": "Primary",
+    "description": "Government Primary School Assistant Teacher and NTRCA School/College Lecturer recruitment.",
+    "subjects": [
+      "Bengali Language",
+      "English",
+      "Mathematics",
+      "General Science",
+      "General Knowledge"
+    ],
+    "color": "#d97706",
+    "icon": "BookOpen"
+  },
+  {
+    "id": "exam-medical",
+    "name": "Medical & Dental Admission (MBBS/BDS)",
+    "code": "Medical",
+    "description": "Medical College Entrance Examination covering Physics, Chemistry, Biology, English & GK.",
+    "subjects": [
+      "General Science",
+      "English",
+      "General Knowledge"
+    ],
+    "color": "#dc2626",
+    "icon": "HeartPulse"
+  }
+]

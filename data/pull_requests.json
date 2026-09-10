@@ -1,0 +1,2066 @@
+[
+  {
+    "id": "pr-101",
+    "prNumber": 101,
+    "title": "Add BUET-2024 & PSC-2024 Pipes and Cistern Question",
+    "commitMessage": "feat(math): Add verified past question with 2 solution methods and LaTeX formatting",
+    "action": "ADD",
+    "status": "PENDING",
+    "proposerId": "usr-moderator",
+    "proposerName": "Farhan Ahmed (Student Moderator)",
+    "proposerEmail": "moderator@proshno.bd",
+    "proposerRole": "MODERATOR",
+    "proposedQuestion": {
+      "text": "সম্পূর্ণ খালি একটি চৌবাচ্চা একটি পাইপ দিয়ে ৫ ঘণ্টায় সম্পূর্ণ ভর্তি করা যায় এবং দ্বিতীয় একটি পাইপ দিয়ে ৩ ঘণ্টায় খালি করা যায়। চৌবাচ্চাটি অর্ধেক ভর্তি থাকা অবস্থায় দুটি পাইপ একসাথে খুলে দিলে চৌবাচ্চাটি কত সময়ে সম্পূর্ণ খালি হবে?",
+      "options": [
+        "৩ ঘণ্টা ৪৫ মিনিট",
+        "৭ ঘণ্টা ৩০ মিনিট",
+        "৫ ঘণ্টা ২০ মিনিট",
+        "৪ ঘণ্টা ১০ মিনিট"
+      ],
+      "correctOptionIndex": 0,
+      "correctOptionIndices": [
+        0
+      ],
+      "isMultiSelect": false,
+      "explanation": "──── SOLUTION 1 ────\n১ম পাইপ দ্বারা ১ ঘণ্টায় পূর্ণ হয় $(১)/(৫)$ অংশ\n২য় পাইপ দ্বারা ১ ঘণ্টায় খালি হয় $(১)/(৩)$ অংশ\nযেহেতু খালি হওয়ার গতি বেশি $((১)/(৩) > (১)/(৫))$, তাই দুটি পাইপ একসাথে খোলা হলে প্রতি ঘণ্টায় খালি হয়:\n$((১)/(৩) - (১)/(৫)) = (৫ - ৩)/(১৫) = (২)/(১৫)$ অংশ\n\nসম্পূর্ণ (১ অংশ) খালি হতে সময় লাগে $(১৫)/(২)$ ঘণ্টা\nসুতরাং অর্ধেক $((১)/(২)$ অংশ) খালি হতে সময় লাগবে:\n$(১৫)/(২) \\times (১)/(২) = (১৫)/(৪)$ ঘণ্টা $= ৩ \\frac{৩}{৪}$ ঘণ্টা $= ৩$ ঘণ্টা ৪৫ মিনিট।",
+      "subject": "গণিত",
+      "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+      "exam": "BUET-2024 | PSC-2024 | 18th BCS Preli-1997",
+      "questionSource": "KGDCL – Technician-2024 | PSC-2024 | BUET-2024 | 18th BCS Preli-1997 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+      "difficulty": "Medium",
+      "tags": [
+        "গণিত",
+        "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "BUET-2024",
+        "PSC-2024",
+        "18th BCS Preli-1997"
+      ]
+    },
+    "createdAt": "2026-09-04T15:46:31.280Z"
+  },
+  {
+    "id": "pr-102",
+    "prNumber": 102,
+    "title": "Fix typo in algebraic simplification formula",
+    "commitMessage": "fix(algebra): Update explanation step 2 with proper sign in quadratic solution",
+    "action": "UPDATE",
+    "status": "PENDING",
+    "proposerId": "usr-editor",
+    "proposerName": "Sadia Islam (Question Editor)",
+    "proposerEmail": "editor@proshno.bd",
+    "proposerRole": "EDITOR",
+    "targetQuestionId": "q-sc-1",
+    "originalQuestion": {
+      "id": "q-sc-1",
+      "text": "Which organelle is known as the powerhouse of the cell and generates energy in the form of $\\text{ATP}$ (Adenosine Triphosphate)?",
+      "options": [
+        "Ribosome",
+        "Mitochondria",
+        "Golgi Apparatus",
+        "Endoplasmic Reticulum"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Mitochondria generate most of the chemical energy through cellular respiration, synthesizing $\\text{ATP}$ molecules: $\\text{C}_6\\text{H}_{12}\\text{O}_6 + 6\\text{O}_2 \\rightarrow 6\\text{CO}_2 + 6\\text{H}_2\\text{O} + 36\\text{ to }38\\text{ ATP}$.",
+      "subject": "General Science",
+      "topic": "Biology",
+      "subtopic": "Cell Biology & Genetics",
+      "exam": "46th & 45th BCS Cadre Preliminary",
+      "difficulty": "Easy",
+      "tags": [
+        "Biology",
+        "Cell",
+        "Basics",
+        "BCS"
+      ]
+    },
+    "proposedQuestion": {
+      "id": "q-sc-1",
+      "text": "Which organelle is known as the powerhouse of the cell and generates energy in the form of $\\text{ATP}$ (Adenosine Triphosphate)?",
+      "options": [
+        "Ribosome",
+        "Mitochondria",
+        "Golgi Apparatus",
+        "Endoplasmic Reticulum"
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "Mitochondria generate most of the chemical energy through cellular respiration, synthesizing $\\text{ATP}$ molecules: $\\text{C}_6\\text{H}_{12}\\text{O}_6 + 6\\text{O}_2 \\rightarrow 6\\text{CO}_2 + 6\\text{H}_2\\text{O} + 36\\text{ to }38\\text{ ATP}$.\n\nNote: Verified according to NCTB Higher Math Grade 9-10 textbook.",
+      "subject": "General Science",
+      "topic": "Biology",
+      "subtopic": "Cell Biology & Genetics",
+      "exam": "46th & 45th BCS Cadre Preliminary",
+      "difficulty": "Easy",
+      "tags": [
+        "Biology",
+        "Cell",
+        "Basics",
+        "BCS"
+      ]
+    },
+    "createdAt": "2026-09-03T19:46:31.280Z"
+  },
+  {
+    "id": "pr-103",
+    "prNumber": 103,
+    "title": "Add 45th BCS International Relations MCQ",
+    "commitMessage": "feat(gk): Add question regarding UN Climate Summit COP28",
+    "action": "ADD",
+    "status": "APPROVED",
+    "proposerId": "usr-moderator",
+    "proposerName": "Farhan Ahmed (Student Moderator)",
+    "proposerEmail": "moderator@proshno.bd",
+    "proposerRole": "MODERATOR",
+    "proposedQuestion": {
+      "text": "জাতিসংঘ জলবায়ু পরিবর্তন সম্মেলন কপ-২৮ (COP28) ২০২৩ সালের নভেম্বর-ডিসেম্বর মাসে কোন দেশে অনুষ্ঠিত হয়?",
+      "options": [
+        "সংযুক্ত আরব আমিরাত (দুবাই)",
+        "মিশর (শার্ম আল-শেখ)",
+        "যুক্তরাজ্য (গ্লাসগো)",
+        "আজারবাইজান (বাকু)"
+      ],
+      "correctOptionIndex": 0,
+      "correctOptionIndices": [
+        0
+      ],
+      "isMultiSelect": false,
+      "explanation": "২৮তম জাতিসংঘ জলবায়ু পরিবর্তন সম্মেলন (COP28) ৩০ নভেম্বর থেকে ১২ ডিসেম্বর ২০২৩ পর্যন্ত সংযুক্ত আরব আমিরাতের দুবাই এক্সপো সিটিতে অনুষ্ঠিত হয়। সম্মেলনে 'লস অ্যান্ড ড্যামেজ ফান্ড' আনুষ্ঠানিকভাবে কার্যকর করার ঐতিহাসিক সিদ্ধান্ত গৃহীত হয়।",
+      "subject": "আন্তর্জাতিক বিষয়াবলী",
+      "topic": "পরিবেশ ও আন্তর্জাতিক সম্মেলন",
+      "subtopic": "জলবায়ু ও COP সামিট",
+      "exam": "45th BCS Preliminary | Bangladesh Bank AD",
+      "difficulty": "Medium",
+      "tags": [
+        "COP28",
+        "Dubai",
+        "Climate",
+        "BCS-45"
+      ]
+    },
+    "reviewerId": "usr-rony-owner",
+    "reviewerName": "Rony (Lead Developer & Admin)",
+    "reviewerRole": "SUPER_ADMIN",
+    "reviewComment": "Verified syllabus alignment. Approved and merged to Question Bank.",
+    "createdAt": "2026-09-02T19:46:31.280Z",
+    "reviewedAt": "2026-09-03T03:46:31.280Z"
+  },
+  {
+    "id": "pr-1788553626851-77",
+    "prNumber": 104,
+    "title": "Batch Import: 59 Questions (গণিত)",
+    "commitMessage": "feat(batch-import): Upload 59 questions from spreadsheet",
+    "action": "BULK_IMPORT",
+    "status": "PENDING",
+    "proposerId": "usr-moderator",
+    "proposerName": "Farhan Ahmed (Student Moderator)",
+    "proposerEmail": "moderator@proshno.bd",
+    "proposerRole": "MODERATOR",
+    "bulkQuestions": [
+      {
+        "text": "সম্পূর্ণ খালি একটি চৌবাচ্চা একটি পাইপ দিয়ে ৫ ঘণ্টায় সম্পূর্ণ ভর্তি করা যায়। দ্বিতীয় একটি পাইপ দিয়ে চৌবাচ্চাটি ভর্তি করতে ৩ ঘণ্টা লাগে। দুটি পাইপ একসাথে ব্যবহার করে চৌবাচ্চাটি (২)/(৩) অংশ ভর্তি করতে কত সময় লাগবে?",
+        "options": [
+          "(৮)/(১৫) ঘণ্টা",
+          "(৩)/(৪) ঘণ্টা",
+          "(৫)/(৪) ঘণ্টা",
+          "(২)/(৩) ঘণ্টা"
+        ],
+        "correctOptionIndex": 2,
+        "correctOptionIndices": [
+          2
+        ],
+        "isMultiSelect": false,
+        "explanation": "──── SOLUTION 1 ────\nBest Answer ১ম পাইপ দ্বারা ১ ঘন্টায় ভর্তি হয় ১/৫ অংশ\nএবং, ২য় পাইপ দ্বারা ১ ঘন্টায় ভর্তি হয় ১/৩ অংশ\nদুইটও পাইপ দ্বারা ১ ঘন্টায় ভর্তি হয় = (১/৫ + ১/৩) = ৮/১৫ অংশ\nঅতএব, ৮/১৫ অংশ ভর্তি হয় ১ ঘন্টায়\n২/৩ অংশ ভর্তি হয় = ১ \\times ১৫ \\times ২/ ৮ \\times ৩ = ৫/৪ ঘন্টায়\n──── SOLUTION 2 ────\n১ম ও ২য় পাইপ একত্রে ১ ঘণ্টায় পূর্ণ করে = ((১)/(৫) + (১)/(৩)) = (৮)/(১৫) অংশঅতএব, (২)/(৩) অংশ পূর্ণ হতে সময় লাগবে = (১৫)/(৮) \\times (২)/(৩) = (৫)/(৪) ঘণ্টা",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "KGDCL – Technician-2024 | PSC-2024 | KGTDCL – Technician-2024 | BUET-2024 | CAAB – SAE (E/M) and Accounts Assistant-2021 | PSC-2021 | 18th BCS Preli-1997 | BCS-1997",
+        "questionSource": "KGDCL – Technician-2024 | PSC-2024 | KGTDCL – Technician-2024 | BUET-2024 | CAAB – SAE (E/M) and Accounts Assistant-2021 | PSC-2021 | 18th BCS Preli-1997 | BCS-1997 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "KGDCL – Technician-2024 | PSC-2024 | KGTDCL – Technician-2024 | BUET-2024 | CAAB – SAE (E/M) and Accounts Assistant-2021 | PSC-2021 | 18th BCS Preli-1997 | BCS-1997",
+          "KGDCL – Technician-2024",
+          "PSC-2024",
+          "KGTDCL – Technician-2024",
+          "BUET-2024",
+          "PSC-2021",
+          "18th BCS Preli-1997",
+          "BCS-1997"
+        ]
+      },
+      {
+        "text": "দুটি নল দ্বারা একটি চৌবাচ্চা ৮ মিনিটে পূর্ণ হয়। নল দুটি খুলে দেয়ার ৪ মিনিট পর প্রথম নলটি বন্ধ করে দেয়াতে চৌবাচ্চাটি পূর্ণ হতে আরো ৬ মিনিট লাগল। প্রত্যেক নল দ্বারা পৃথকভাবে চৌবাচ্চাটি পূর্ণ হতে কত সময় লাগবে?",
+        "options": [
+          "১৮ এবং ১২ মিনিট",
+          "২৪ এবং ১২ মিনিট",
+          "১৫ এবং ১২ মিনিট",
+          "১০ এবং ১৫ মিনিট"
+        ],
+        "correctOptionIndex": 1,
+        "correctOptionIndices": [
+          1
+        ],
+        "isMultiSelect": false,
+        "explanation": "──── SOLUTION 1 ────\nBest Answer ৮ মিনিটে পূর্ণ করে ১ টি চৌবাচ্চা ৪ \" \" \" = ((৪)/(৮) \\times ১) অংশ = (১)/(২) অংশ চৌব্বাচাটির (১ − (১)/(২)) অংশ খালি থাকে ∴ দ্বিতীয় নল দ্বারা, (১)/(২) অংশ পূর্ণ হয় ৬ মিনিটে ১ (সম্পূর্ণ) \" \" \" = (৬ \\times ২) = ১২ মিনিটে আবার দ্বিতীয় নল দ্বারা, ৬ মিনিটে পূর্ণ হয় (১)/(২) অংশ ৪ \" \" \" = = (১ \\times ৪)/(২ \\times ৬) = (১)/(৩) অংশ ∴ প্রথম নল দ্বারা ৪ মিনিটে পূর্ণ হয় = = (১)/(৬) অংশ প্রথম নল দ্বারা= (১)/(৬)অংশ পূর্ণ হয় ৪ মিনিটে \" \" \" ১ (সম্পূর্ণ) \" \" (৪ \\times ৬) \" = ২৪ মিনিটে।\n──── SOLUTION 2 ────\nনল ২টি ৪ মিনিটে পূর্ণ করে = (৪)/(৮) = (১)/(২) অংশ\nঅবশিষ্ট থাকে = ১ - (১)/(২) = (১)/(২) অংশ\n২য় নল (১)/(২) অংশ পূর্ণ করে ৬ মিনিটে\n\\therefore ২য় নল একা পূর্ণ করে = (৬ \\times ২) = ১২ মিনিটে\n১ম নল ১ মিনিটে পূর্ণ করে = (১)/(৮) - (১)/(১২) = (৩ - ২)/(২৪) = (১)/(২৪) অংশ\n\\therefore ১ম নল একা পূর্ণ করে ২৪ মিনিটে।\nঅতএব, নল দুটির পৃথক সময় ২৪ এবং ১২ মিনিট।",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "KGDCL – Surveyor-2024 | PSC-2024 | BREB – Meter Tester-2023 | PSC-2023 | BKB IT-2016 | Krishi Bank-2016 | BBS SAO-2014 | PSC-2014 | BMET Assistant Director-2001 | PSC-2001 | 20th BCS Preli-1998 | BCS-1998",
+        "questionSource": "KGDCL – Surveyor-2024 | PSC-2024 | BREB – Meter Tester-2023 | PSC-2023 | BKB IT-2016 | Krishi Bank-2016 | BBS SAO-2014 | PSC-2014 | BMET Assistant Director-2001 | PSC-2001 | 20th BCS Preli-1998 | BCS-1998 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "KGDCL – Surveyor-2024 | PSC-2024 | BREB – Meter Tester-2023 | PSC-2023 | BKB IT-2016 | Krishi Bank-2016 | BBS SAO-2014 | PSC-2014 | BMET Assistant Director-2001 | PSC-2001 | 20th BCS Preli-1998 | BCS-1998",
+          "KGDCL – Surveyor-2024",
+          "PSC-2024",
+          "BREB – Meter Tester-2023",
+          "PSC-2023",
+          "BKB IT-2016",
+          "Krishi Bank-2016",
+          "BBS SAO-2014",
+          "PSC-2014",
+          "BMET Assistant Director-2001",
+          "PSC-2001",
+          "20th BCS Preli-1998",
+          "BCS-1998"
+        ]
+      },
+      {
+        "text": "A Water reservoir is $\\frac{1}{5th} full and requires 20 liters more to make it \\frac{3}{5th} full. What is the capacity of the reservoir$?",
+        "options": [
+          "$40$",
+          "$50$",
+          "$60$",
+          "$None of these$"
+        ],
+        "correctOptionIndex": 1,
+        "correctOptionIndices": [
+          1
+        ],
+        "isMultiSelect": false,
+        "explanation": "$──── SOLUTION 1 ──── \\frac{3}{5} - \\frac{1}{5} = \\frac{2}{5} so, \\frac{5 \\times 20}{2} = 50$",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "BB Officer-2001 | BB-2001",
+        "questionSource": "BB Officer-2001 | BB-2001 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "BB Officer-2001 | BB-2001",
+          "BB Officer-2001",
+          "BB-2001"
+        ]
+      },
+      {
+        "text": "একটি চৌবাচ্চা তিনটি নল দিয়ে যথাক্রমে ১০, ১২ ও ১৫ ঘণ্টায় পূর্ণ হতে পারে। তিনটি নল একসঙ্গে খুলে দিলে চৌবাচ্চার অর্ধেক পূর্ণ হতে কত সময় লাগবে?",
+        "options": [
+          "৪ ঘণ্টা",
+          "৬ ঘণ্টা",
+          "৩ ঘণ্টা",
+          "২ ঘণ্টা"
+        ],
+        "correctOptionIndex": 3,
+        "correctOptionIndices": [
+          3
+        ],
+        "isMultiSelect": false,
+        "explanation": "$──── SOLUTION 1 ──── Best Answer let, total volume = X, at 1st hr filled volume = \\frac{x}{10} + \\frac{x}{12} + \\frac{x}{15} = \\frac{x}{4} so at 2nd hr another filled volume = \\frac{x}{4} at 2hrs = \\frac{x}{4} + \\frac{x}{4} = \\frac{x}{2} that is half of total volume ──── SOLUTION 2 ──── ১ম নল দিয়ে ১ টি চৌবাচ্চা ১০ ঘন্টায় পূর্ণ হয়= ১/১০ অংশ।২য় নল দিয়ে ১ টি চৌবাচ্চা ১২ ঘন্টায় পূর্ণ হয়= ১/১২ অংশ।৩য় নল দিয়ে ১ টি চৌবাচ্চা ১৫ ঘন্টায় পূর্ণ হয়= ১/১৫ অংশ।মোট পূর্ণ হয়=(১/১০+১/১২+১/১৫)=১৫/৬০ অংশ বা ১/৪ অংশ।১/৪ অংশ পূর্ণ হয় =১ ঘন্টায়১/২ অংশ পূর্ণ হয়= (৪/১) \\cdot (১/২)=২ ঘন্টায়। ──── SOLUTION 3 ──── 3টি নল একত্রে 1 ঘণ্টায় পূর্ণ করে = \\frac{(1}{10} + \\frac{1}{12} + \\frac{1}{15}) অংশ = \\frac{6 + 5 + 4}{60} = \\frac{15}{60} = \\frac{1}{4} অংশ \\therefore 1 বা সম্পূর্ণ অংশ পূর্ণ হতে সময় লাগে = 4 ঘণ্টা \\therefore অর্ধেক বা \\frac{1}{2} অংশ পূর্ণ হতে সময় লাগবে = 4 \\times \\frac{1}{2} = 2 ঘণ্টা। ──── SOLUTION 4 ──── ৩টি নল একত্রে ১ ঘণ্টায় পূর্ণ করে = \\frac{(১}{১০} + \\frac{১}{১২} + \\frac{১}{১৫}) অংশ = \\frac{৬ + ৫ + ৪}{৬০} = \\frac{১৫}{৬০} = \\frac{১}{৪} অংশ সম্পূর্ণ অংশ পূর্ণ হতে সময় লাগে = ৪ ঘণ্টা \\therefore অর্ধেক \\frac{(১}{২}) অংশ পূর্ণ হতে সময় লাগবে = ৪ \\times \\frac{১}{২} = ২ ঘণ্টা।$",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "DoF – Assistant Sub Food Inspector-2025 | PSC-2025 | NSI – Field Officer-2023 | PSC-2023 | Primary Assistant Teacher-2019 | Primary Teacher-2019 | Pre-Primary Teacher-2014 | Primary Teacher-2014 | Primary Head Teacher-2012 | DPE-2012 | Primary Assistant Teacher-2012 | Primary Teacher-2012 | DG Food FI/SI Food-2011 | PSC-2011 | Agrani Senior Officer-2010 | Agrani Bank-2010 | Combined Bank Senior Officer (IT)-2010 | Combined Bank-2010 | Primary Head Teacher-2009 | DPE-2009",
+        "questionSource": "DoF – Assistant Sub Food Inspector-2025 | PSC-2025 | NSI – Field Officer-2023 | PSC-2023 | Primary Assistant Teacher-2019 | Primary Teacher-2019 | Pre-Primary Teacher-2014 | Primary Teacher-2014 | Primary Head Teacher-2012 | DPE-2012 | Primary Assistant Teacher-2012 | Primary Teacher-2012 | DG Food FI/SI Food-2011 | PSC-2011 | Agrani Senior Officer-2010 | Agrani Bank-2010 | Combined Bank Senior Officer (IT)-2010 | Combined Bank-2010 | Primary Head Teacher-2009 | DPE-2009 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "DoF – Assistant Sub Food Inspector-2025 | PSC-2025 | NSI – Field Officer-2023 | PSC-2023 | Primary Assistant Teacher-2019 | Primary Teacher-2019 | Pre-Primary Teacher-2014 | Primary Teacher-2014 | Primary Head Teacher-2012 | DPE-2012 | Primary Assistant Teacher-2012 | Primary Teacher-2012 | DG Food FI/SI Food-2011 | PSC-2011 | Agrani Senior Officer-2010 | Agrani Bank-2010 | Combined Bank Senior Officer (IT)-2010 | Combined Bank-2010 | Primary Head Teacher-2009 | DPE-2009",
+          "DoF – Assistant Sub Food Inspector-2025",
+          "PSC-2025",
+          "NSI – Field Officer-2023",
+          "PSC-2023",
+          "Primary Assistant Teacher-2019",
+          "Primary Teacher-2019",
+          "Pre-Primary Teacher-2014",
+          "Primary Teacher-2014",
+          "Primary Head Teacher-2012",
+          "DPE-2012",
+          "Primary Assistant Teacher-2012",
+          "Primary Teacher-2012",
+          "DG Food FI/SI Food-2011",
+          "PSC-2011",
+          "Agrani Senior Officer-2010",
+          "Agrani Bank-2010",
+          "Combined Bank Senior Officer (IT)-2010",
+          "Combined Bank-2010",
+          "Primary Head Teacher-2009",
+          "DPE-2009"
+        ]
+      },
+      {
+        "text": "একটি চৌবাচ্চায় দুইটি নল আছে। একটি নল ৪০ মিনিটে ভর্তি করতে পারে এবং অপরটি এক ঘণ্টায় খালি করতে পারে। উভয় নল একসাথে খুলে দিলে কতক্ষণে চৌবাচ্চাটি ভর্তি হবে?",
+        "options": [
+          "১ ঘন্টা",
+          "২ ঘন্টা",
+          "৩ ঘন্টা",
+          "৪ ঘন্টা"
+        ],
+        "correctOptionIndex": 1,
+        "correctOptionIndices": [
+          1
+        ],
+        "isMultiSelect": false,
+        "explanation": "$──── SOLUTION 1 ──── Best Answer ১ম নল ১ মিনিটে ভর্তি করে \\frac{1}{40} অংশ ২য় নল ১ মিনিটে খালি করে \\frac{1}{60} অংশ (১ ঘণ্টা = ৬০ মিনিট) একত্রে ১ মিনিটে পূর্ণ হয় = \\frac{(1}{40} - \\frac{1}{60}) অংশ = \\frac{3 - 2}{120} = \\frac{1}{120} অংশ চৌবাচ্চাটি পূর্ণ হতে সময় লাগবে 120 মিনিট = 2 ঘণ্টা। ──── SOLUTION 2 ────$",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "APSCL Junior Electrician-2026 | BUET-2026 | PGCB – Sub-Assistant Engineer-2024 | BUET-2024 | Global Islami Officer-2021 | GIB-2021 | BKB Supervisor-2012 | Krishi Bank-2012 | Jamuna PO-2009 | Jamuna Bank-2009 | Primary Head Teacher-2008 | DPE-2008 | MoFA Personal Officer-2006 | PSC-2006 | DSS DAD/Assistant Manager-2005 | PSC-2005",
+        "questionSource": "APSCL Junior Electrician-2026 | BUET-2026 | PGCB – Sub-Assistant Engineer-2024 | BUET-2024 | Global Islami Officer-2021 | GIB-2021 | BKB Supervisor-2012 | Krishi Bank-2012 | Jamuna PO-2009 | Jamuna Bank-2009 | Primary Head Teacher-2008 | DPE-2008 | MoFA Personal Officer-2006 | PSC-2006 | DSS DAD/Assistant Manager-2005 | PSC-2005 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "APSCL Junior Electrician-2026 | BUET-2026 | PGCB – Sub-Assistant Engineer-2024 | BUET-2024 | Global Islami Officer-2021 | GIB-2021 | BKB Supervisor-2012 | Krishi Bank-2012 | Jamuna PO-2009 | Jamuna Bank-2009 | Primary Head Teacher-2008 | DPE-2008 | MoFA Personal Officer-2006 | PSC-2006 | DSS DAD/Assistant Manager-2005 | PSC-2005",
+          "APSCL Junior Electrician-2026",
+          "BUET-2026",
+          "PGCB – Sub-Assistant Engineer-2024",
+          "BUET-2024",
+          "Global Islami Officer-2021",
+          "GIB-2021",
+          "BKB Supervisor-2012",
+          "Krishi Bank-2012",
+          "Jamuna PO-2009",
+          "Jamuna Bank-2009",
+          "Primary Head Teacher-2008",
+          "DPE-2008",
+          "MoFA Personal Officer-2006",
+          "PSC-2006",
+          "DSS DAD/Assistant Manager-2005",
+          "PSC-2005"
+        ]
+      },
+      {
+        "text": "দুটি নল দ্বারা একটি চৌবাচ্চা যথাক্রমে ১০ ও ১৫ ঘণ্টায় পানি পূর্ণ করে। নল দুটি একত্রে খোলা রাখলে চৌবাচ্চাটি কতক্ষণে পানি পূর্ণ হবে?",
+        "options": [
+          "৬ ঘণ্টায়",
+          "৫ ঘণ্টায়",
+          "৪ ঘণ্টায়",
+          "২ ঘণ্টায়"
+        ],
+        "correctOptionIndex": 0,
+        "correctOptionIndices": [
+          0
+        ],
+        "isMultiSelect": false,
+        "explanation": "No worked solution text was provided on the source page",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "RHD Work Assistant-2022 | DTE – Head Assistant / Accountant / Computer Operator-2021 | PSC-2021 | BSEC – Personal Officer-2021 | TMED – Various Posts-2021 | Primary Teacher (Phase 1)-2019 | Primary Teacher-2019 | Pre-Primary Teacher-2014 | Primary Teacher-2014 | BB AD-2014 | BB-2014 | Sonali Officer (Cash)-2014 | Sonali Bank-2014 | Exim Bank Officer-2013 | EXIM-2013 | Pre-Primary Teacher-2013 | Primary Teacher-2013 | Primary Assistant Teacher-2011 | Primary Teacher-2011 | Rupali Officer-2010 | Rupali Bank-2010 | DOE Research Officer-2006 | PSC-2006 | Dhaka Bank MTO-2003 | Dhaka Bank-2003",
+        "questionSource": "RHD Work Assistant-2022 | DTE – Head Assistant / Accountant / Computer Operator-2021 | PSC-2021 | BSEC – Personal Officer-2021 | TMED – Various Posts-2021 | Primary Teacher (Phase 1)-2019 | Primary Teacher-2019 | Pre-Primary Teacher-2014 | Primary Teacher-2014 | BB AD-2014 | BB-2014 | Sonali Officer (Cash)-2014 | Sonali Bank-2014 | Exim Bank Officer-2013 | EXIM-2013 | Pre-Primary Teacher-2013 | Primary Teacher-2013 | Primary Assistant Teacher-2011 | Primary Teacher-2011 | Rupali Officer-2010 | Rupali Bank-2010 | DOE Research Officer-2006 | PSC-2006 | Dhaka Bank MTO-2003 | Dhaka Bank-2003 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "RHD Work Assistant-2022 | DTE – Head Assistant / Accountant / Computer Operator-2021 | PSC-2021 | BSEC – Personal Officer-2021 | TMED – Various Posts-2021 | Primary Teacher (Phase 1)-2019 | Primary Teacher-2019 | Pre-Primary Teacher-2014 | Primary Teacher-2014 | BB AD-2014 | BB-2014 | Sonali Officer (Cash)-2014 | Sonali Bank-2014 | Exim Bank Officer-2013 | EXIM-2013 | Pre-Primary Teacher-2013 | Primary Teacher-2013 | Primary Assistant Teacher-2011 | Primary Teacher-2011 | Rupali Officer-2010 | Rupali Bank-2010 | DOE Research Officer-2006 | PSC-2006 | Dhaka Bank MTO-2003 | Dhaka Bank-2003",
+          "RHD Work Assistant-2022",
+          "PSC-2021",
+          "BSEC – Personal Officer-2021",
+          "TMED – Various Posts-2021",
+          "Primary Teacher (Phase 1)-2019",
+          "Primary Teacher-2019",
+          "Pre-Primary Teacher-2014",
+          "Primary Teacher-2014",
+          "BB AD-2014",
+          "BB-2014",
+          "Sonali Officer (Cash)-2014",
+          "Sonali Bank-2014",
+          "Exim Bank Officer-2013",
+          "EXIM-2013",
+          "Pre-Primary Teacher-2013",
+          "Primary Teacher-2013",
+          "Primary Assistant Teacher-2011",
+          "Primary Teacher-2011",
+          "Rupali Officer-2010",
+          "Rupali Bank-2010",
+          "DOE Research Officer-2006",
+          "PSC-2006",
+          "Dhaka Bank MTO-2003",
+          "Dhaka Bank-2003"
+        ]
+      },
+      {
+        "text": "১টি চৌবাচ্চার (৩)/(৫) ভাগ পূরণ হতে ৭ ঘন্টা লাগে। চৌবাচ্চার বাকি অংশ পূরণ হতে আর কত সময় লাগবে?",
+        "options": [
+          "৫ ঘন্টা ২০ মিনিট",
+          "৪ ঘন্টা ৪০ মিনিট",
+          "৪ ঘন্টা ২০ মিনিট",
+          "কোনটিই নয়"
+        ],
+        "correctOptionIndex": 1,
+        "correctOptionIndices": [
+          1
+        ],
+        "isMultiSelect": false,
+        "explanation": "──── SOLUTION 1 ────\nBest Answer চৌবাচ্চাটির বাকি অংশ = {১ - (৩/৫)} অংশ\n= ২/৫ অংশ\nচৌবাচ্চাটির ৩/৫ ভাগ হতে সময় লাগে ৭ঘন্টা\n\" ১ \" \" \" \" = (৭\\times৫)/৩ \"\n∴ \" ২/৫ \" \" \" \" = (৭\\times৫\\times২)/৩\\times৫\"\n= ১৪/৩ ঘন্টা\n= ৪ ঘন্টা ৪০ মিনিট\n──── SOLUTION 2 ────\nচৌবাচ্চার বাকি অংশ = $1 - \\frac{3}{5} = \\frac{2}{5}$\n৩/৫ অংশ (৭ ঘণ্টা)\nবাকি ২/৫ অংশ (?)\nপূর্ণ অংশ\nখালি অংশ\n$\\frac{3}{5}$ অংশ পূর্ণ হতে লাগে = 7 ঘণ্টা\\therefore $\\frac{2}{5}$ অংশ পূর্ণ হতে লাগে = (7 \\times $\\frac{5}{3} \\times \\frac{2}{5})$ ঘণ্টা = $\\frac{14}{3}$ ঘণ্টা = $4\\frac{2}{3}$ ঘণ্টা = 4 ঘণ্টা + $\\frac{(2}{3} \\times 60)$ মিনিট = 4 ঘণ্টা 40 মিনিট\n──── SOLUTION 3 ────\nবাকি অংশ = $1 - \\frac{3}{5} = \\frac{2}{5}$ অংশ\n$\\frac{3}{5}$ অংশ পূরণ হতে সময় লাগে ৭ ঘণ্টা\n\\therefore $\\frac{2}{5}$ অংশ পূরণ হতে সময় লাগবে =(৭ \\times (২)/(৫))/((৩)/(৫)) ঘণ্টা\n=(১৪)/(৩) ঘণ্টা = ৪(২)/(৩) ঘণ্টা\n= ৪ ঘণ্টা +((২)/(৩) \\times ৬০) মিনিট = ৪ ঘণ্টা ৪০ মিনিট",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "BPO – Postal Operator-2019 | PSC-2019 | DGFP SACMO-2014 | PSC-2014 | Trust Officer-2009 | TBL-2009 | DG Food ASFI/Assistant Operator-2009 | PSC-2009 | Standard Officer-2006 | Standard Bank-2006",
+        "questionSource": "BPO – Postal Operator-2019 | PSC-2019 | DGFP SACMO-2014 | PSC-2014 | Trust Officer-2009 | TBL-2009 | DG Food ASFI/Assistant Operator-2009 | PSC-2009 | Standard Officer-2006 | Standard Bank-2006 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "BPO – Postal Operator-2019 | PSC-2019 | DGFP SACMO-2014 | PSC-2014 | Trust Officer-2009 | TBL-2009 | DG Food ASFI/Assistant Operator-2009 | PSC-2009 | Standard Officer-2006 | Standard Bank-2006",
+          "BPO – Postal Operator-2019",
+          "PSC-2019",
+          "DGFP SACMO-2014",
+          "PSC-2014",
+          "Trust Officer-2009",
+          "TBL-2009",
+          "DG Food ASFI/Assistant Operator-2009",
+          "PSC-2009",
+          "Standard Officer-2006",
+          "Standard Bank-2006"
+        ]
+      },
+      {
+        "text": "3 pumps, working 8 hours a day, can empty a tank in 2 days. How many hours a day must 4 pumps work to empty the tank in 1 day?",
+        "options": [
+          "$10$",
+          "$11$",
+          "$12$",
+          "$9$"
+        ],
+        "correctOptionIndex": 2,
+        "correctOptionIndices": [
+          2
+        ],
+        "isMultiSelect": false,
+        "explanation": "No worked solution text was provided on the source page",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "APSCL Assistant Engineer-2024 | BUET-2024 | Pubali Officer-2023 | PB-2023 | Uttara Officer-2022 | Uttara Bank-2022 | Combined Bank Officer-2021 | Combined Bank-2021 | BADC AAO-2017 | PSC-2017 | BB Officer (Cash)-2016 | BB-2016 | Pubali Junior Officer-2013 | PB-2013 | Exim Bank Officer-2013 | EXIM-2013",
+        "questionSource": "APSCL Assistant Engineer-2024 | BUET-2024 | Pubali Officer-2023 | PB-2023 | Uttara Officer-2022 | Uttara Bank-2022 | Combined Bank Officer-2021 | Combined Bank-2021 | BADC AAO-2017 | PSC-2017 | BB Officer (Cash)-2016 | BB-2016 | Pubali Junior Officer-2013 | PB-2013 | Exim Bank Officer-2013 | EXIM-2013 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "APSCL Assistant Engineer-2024 | BUET-2024 | Pubali Officer-2023 | PB-2023 | Uttara Officer-2022 | Uttara Bank-2022 | Combined Bank Officer-2021 | Combined Bank-2021 | BADC AAO-2017 | PSC-2017 | BB Officer (Cash)-2016 | BB-2016 | Pubali Junior Officer-2013 | PB-2013 | Exim Bank Officer-2013 | EXIM-2013",
+          "APSCL Assistant Engineer-2024",
+          "BUET-2024",
+          "Pubali Officer-2023",
+          "PB-2023",
+          "Uttara Officer-2022",
+          "Uttara Bank-2022",
+          "Combined Bank Officer-2021",
+          "Combined Bank-2021",
+          "BADC AAO-2017",
+          "PSC-2017",
+          "BB Officer (Cash)-2016",
+          "BB-2016",
+          "Pubali Junior Officer-2013",
+          "PB-2013",
+          "Exim Bank Officer-2013",
+          "EXIM-2013"
+        ]
+      },
+      {
+        "text": "One pipe can fill a tank three times as fast as another pipe. If together the two pipes can fill the tank in 36 minutes, then the slower pipe alone will be able to fill the tank in :",
+        "options": [
+          "$81 min$",
+          "$108 min$",
+          "$144 min$",
+          "$192 min$"
+        ],
+        "correctOptionIndex": 2,
+        "correctOptionIndices": [
+          2
+        ],
+        "isMultiSelect": false,
+        "explanation": "$──── SOLUTION 1 ──── Let the slower pipe alone fill the tank in x minThen, faster pipe will fill it in \\frac{x}{3}​ minSo, slower pipe in 1 minute can fill = \\frac{1}{x} part of the tankand faster pipe in 1 minute can fill = \\frac{3}{x} part of the tankagain, together in 1 minute can fill = \\frac{1}{36} part of the tankAs per question,\\frac{1}{x} + \\frac{3}{x} = \\frac{1}{36}∴ x = 144 min (Ans:)$",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "BB AD-2016 | BB-2016",
+        "questionSource": "BB AD-2016 | BB-2016 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "BB AD-2016 | BB-2016",
+          "BB AD-2016",
+          "BB-2016"
+        ]
+      },
+      {
+        "text": "দুটি নল দ্বারা চৌবাচ্চা যথাক্রমে ২০ মিনিট ও ৩০ মিনিটে পানি পূর্ণ করা যায়। চৌবাচ্চাটি খালি থাকা অবস্থায় দুইটি নলই একসঙ্গে খুলে দেওয়া হলো। প্রথম নলটি কখন বন্ধ করলে মোট ১৮ মিনিটে চৌবাচ্চাটি পানি পূর্ণ হবে?",
+        "options": [
+          "৮ মিনিট পরে",
+          "৬ মিনিট পরে",
+          "১০ মিনিট পরে",
+          "৪ মিনিট পরে"
+        ],
+        "correctOptionIndex": 0,
+        "correctOptionIndices": [
+          0
+        ],
+        "isMultiSelect": false,
+        "explanation": "No worked solution text was provided on the source page",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "MoHA Police Assistant/Chemical Examiner-2002 | PSC-2002",
+        "questionSource": "MoHA Police Assistant/Chemical Examiner-2002 | PSC-2002 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "MoHA Police Assistant/Chemical Examiner-2002 | PSC-2002",
+          "PSC-2002"
+        ]
+      },
+      {
+        "text": "একটি চৌবাচ্চা একটি নল দ্বারা ১০ ঘণ্টায় পূর্ণ হয়। তাতে একটি ছিদ্র থাকায় পূর্ণ হতে ১৫ ঘণ্টা লাগে। ছিদ্র দ্বারা চৌবাচ্চাটি খালি হতে কত সময় লাগবে?",
+        "options": [
+          "২০ ঘণ্টা",
+          "২৫ ঘণ্টা",
+          "৩০ ঘণ্টা",
+          "৩৫ ঘণ্টা"
+        ],
+        "correctOptionIndex": 2,
+        "correctOptionIndices": [
+          2
+        ],
+        "isMultiSelect": false,
+        "explanation": "──── SOLUTION 1 ────\nBest Answer নলটি ১ ঘন্টায় পূর্ণ করে চৌবাচ্চাটির ১/১০ অংশ\nকিন্তু ছিদ্র থাকায় ১ ঘন্টায় পূর্ণ হয় চৌবাচ্চাটির ১/১৫ অংশ\nছিদ্র দ্বারা ১ ঘন্টা খালি হয় ( ১/১০ - ১/১৫) অংশ বা ১/৩০ অংশ\nছিদ্র দ্বারা চৌবাচ্চাটির ১/৩০ অংশ খালি হতে সময় লাগে ১ ঘন্টা\nসম্পূর্ণ অংশ খালি হতে সময় লাগে = ৩০ \\times ১ = ৩০ ঘন্টা\n──── SOLUTION 2 ────\n১ ঘণ্টায় ছিদ্র দ্বারা খালি হয় = (১)/(১০) - (১)/(১৫) অংশ\n= (৩ - ২)/(৩০) = (১)/(৩০) অংশ\n\\therefore ছিদ্র দ্বারা চৌবাচ্চাটি খালি হতে সময় লাগবে ৩০ ঘণ্টা।",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "BSCIC Technical Officer-2026 | BUET-2026 | Bangladesh Bank Assistant Director-2026 | BB-2026 | Bangladesh Railway – ALM (Grade-2)-2024 | PSC-2024 | PPA – Office Sohayok-2023 | PSC-2023 | PPA – SAE (Civil)-2023 | Combined Bank Officer-2019 | Combined Bank-2019 | PKB Officer-2019 | PKB-2019 | Agrani Senior Officer-2017 | Agrani Bank-2017 | Rupali Officer-2013 | Rupali Bank-2013 | DOL Assistant Labour Officer-2003 | PSC-2003",
+        "questionSource": "BSCIC Technical Officer-2026 | BUET-2026 | Bangladesh Bank Assistant Director-2026 | BB-2026 | Bangladesh Railway – ALM (Grade-2)-2024 | PSC-2024 | PPA – Office Sohayok-2023 | PSC-2023 | PPA – SAE (Civil)-2023 | Combined Bank Officer-2019 | Combined Bank-2019 | PKB Officer-2019 | PKB-2019 | Agrani Senior Officer-2017 | Agrani Bank-2017 | Rupali Officer-2013 | Rupali Bank-2013 | DOL Assistant Labour Officer-2003 | PSC-2003 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "BSCIC Technical Officer-2026 | BUET-2026 | Bangladesh Bank Assistant Director-2026 | BB-2026 | Bangladesh Railway – ALM (Grade-2)-2024 | PSC-2024 | PPA – Office Sohayok-2023 | PSC-2023 | PPA – SAE (Civil)-2023 | Combined Bank Officer-2019 | Combined Bank-2019 | PKB Officer-2019 | PKB-2019 | Agrani Senior Officer-2017 | Agrani Bank-2017 | Rupali Officer-2013 | Rupali Bank-2013 | DOL Assistant Labour Officer-2003 | PSC-2003",
+          "BSCIC Technical Officer-2026",
+          "BUET-2026",
+          "Bangladesh Bank Assistant Director-2026",
+          "BB-2026",
+          "Bangladesh Railway – ALM (Grade-2)-2024",
+          "PSC-2024",
+          "PPA – Office Sohayok-2023",
+          "PSC-2023",
+          "PPA – SAE (Civil)-2023",
+          "Combined Bank Officer-2019",
+          "Combined Bank-2019",
+          "PKB Officer-2019",
+          "PKB-2019",
+          "Agrani Senior Officer-2017",
+          "Agrani Bank-2017",
+          "Rupali Officer-2013",
+          "Rupali Bank-2013",
+          "DOL Assistant Labour Officer-2003",
+          "PSC-2003"
+        ]
+      },
+      {
+        "text": "ঢাকা থেকে রংপুরের দূরত্ব ৪৫ মাইল। হাসান ঘনটায় ৩ মাইল বেগে এবং শাহিন ঘন্টায় ৪ মাইল বেগে হাটে। হাসান ঢাকা থেকে রওয়ানা হবার ১ ঘন্টা পর শাহিন রংপুর থেকে ঢাকা রওয়ানা হলো। শাহিন কত মাইল হাটার পর হাসানের সাথে দেখা হবে?",
+        "options": [
+          "২৪",
+          "২১",
+          "২৫",
+          "২৩",
+          "২০"
+        ],
+        "correctOptionIndex": 0,
+        "correctOptionIndices": [
+          0
+        ],
+        "isMultiSelect": false,
+        "explanation": "──── SOLUTION 1 ────\nহাসান ১ ঘন্টায় যায় ৩ মাইল\nবাকী দূরুত্ব = ( ৪৫ - ৩) = মাইল = ৪২ মাইল\nহাসাম ও শাহিন ১ ঘন্টায় যায় = ( ৩ + ৪) মাইল = ৭ মাইল\nদু জনের ৪২ মাইল যেতে সময় লাগে = ৪২/৭ ঘন্টা = ৬ ঘন্টা\n৬ ঘন্টায় শাহিন হাঁটে = ( ৪\\times৬) মাইল = ২৪ মাইল",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "BBS SAO-2014 | PSC-2014",
+        "questionSource": "BBS SAO-2014 | PSC-2014 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "BBS SAO-2014 | PSC-2014",
+          "BBS SAO-2014",
+          "PSC-2014"
+        ]
+      },
+      {
+        "text": "A tap can fill a tank in 6 hours. After 3 hours, three more similar taps are opened. What is the total time taken to fill the tank completely? (একটি কল ৬ ঘণ্টায় একটি ট্যাংক পূর্ণ করতে পারে। ৩ ঘণ্টা পর, একই ধরনের আরও তিনটি কল খুলে দেওয়া হলো। সম্পূর্ণ ট্যাংকটি পূর্ণ হতে মোট কত সময় লাগবে?)",
+        "options": [
+          "$3hrs 15min$",
+          "$3hrs 45 min$",
+          "$4hrs$",
+          "$4hrs 15min$"
+        ],
+        "correctOptionIndex": 1,
+        "correctOptionIndices": [
+          1
+        ],
+        "isMultiSelect": false,
+        "explanation": "$──── SOLUTION 1 ──── Best Answer ১ টি নল ৩ ঘণ্টায় পূর্ণ করে = \\frac{৩}{৬} = \\frac{১}{২} অংশ অবশিষ্ট অংশ = ১ - \\frac{১}{২} = \\frac{১}{২} অংশ বর্তমান মোট নল = ১ + ৩ = ৪ টি ১ টি নল ১ অংশ পূর্ণ করে = ৬ ঘণ্টায় ৪ টি নল \\frac{১}{২} অংশ পূর্ণ করে = \\frac{(৬}{৪ \\times ২}) ঘণ্টা = \\frac{৩}{৪} ঘণ্টা = \\frac{(৩}{৪} \\times ৬০) মিনিট = ৪৫ মিনিট মোট সময় = ৩ ঘণ্টা + ৪৫ মিনিট = ৩ ঘণ্টা ৪৫ মিনিট ──── SOLUTION 2 ──── বিস্তারিত সমাধান: ধরি, সম্পূর্ণ চৌবাচ্চাটি = ১ অংশ। ১টি নল দ্বারা ৬ ঘণ্টায় পূর্ণ হয় = ১ অংশ চৌবাচ্চা। অতএব, ১টি নল দ্বারা ১ ঘণ্টায় পূর্ণ হয় = \\frac{1}{6} অংশ। প্রথম ৩ ঘণ্টায় ১টি নল দ্বারা পূর্ণ হয় = 3 \\times \\frac{1}{6} = \\frac{1}{2} অংশ। অতএব, চৌবাচ্চার অবশিষ্ট খালি অংশ = 1 - \\frac{1}{2} = \\frac{1}{2} অংশ। ৩ ঘণ্টা পর আরও ৩টি একই ধরনের নল খুলে দেওয়া হলো। সুতরাং, মোট নলের সংখ্যা হলো = ১ + ৩ = ৪ টি। ৪টি নল একত্রে ১ ঘণ্টায় পূর্ণ করে = 4 \\times \\frac{1}{6} = \\frac{2}{3} অংশ। এখন, ৪টি নল একত্রে \\frac{2}{3} অংশ পূর্ণ করে = ১ ঘণ্টায়। অতএব, ৪টি নল একত্রে অবশিষ্ট \\frac{1}{2} অংশ পূর্ণ করতে সময় নেবে = \\frac{\\frac{1}{2}}{\\frac{2}{3}} = \\frac{1}{2} \\times \\frac{3}{2} = \\frac{3}{4} ঘণ্টা। \\frac{3}{4} ঘণ্টা = \\frac{(3}{4} \\times 60) মিনিট = ৪৫ মিনিট। সুতরাং, চৌবাচ্চাটি সম্পূর্ণ পূর্ণ হতে মোট সময় লাগবে = (৩ ঘণ্টা + ৪৫ মিনিট) = ৩ ঘণ্টা ৪৫ মিনিট। 💡 শর্টকাট টেকনিক: প্রথম ৩ ঘণ্টায় ১টি নল দিয়ে চৌবাচ্চার অর্ধেক \\frac{(1}{2}) পূর্ণ হয়। বাকি থাকে অর্ধেক অংশ। যদি ১টি নল চালু থাকত, তবে বাকি অর্ধেক পূর্ণ হতে আরও ৩ ঘণ্টা সময় লাগত। যেহেতু এখন মোট নলের সংখ্যা ৪টি, তাই সময় লাগবে ১টি নলের সময়ের ৪ ভাগের ১ ভাগ। অবশিষ্ট অংশের জন্য সময় = \\frac{৩}{৪} ঘণ্টা = ৪৫ মিনিট। মোট সময় = ৩ ঘণ্টা + ৪৫ মিনিট = ৩ ঘণ্টা ৪৫ মিনিট। ──── SOLUTION 3 ──── A tap in 6 hours can fill 1 portion A tap in 1 hours can fill \\frac{1}{6} portion By 1st \\frac{1}{2} portion is filled by 3 hours The left \\frac{1}{2} portion is filled by 3 same tap Now, By 1 tap \\frac{1}{6} portion is filled in 1 hours By. 3 tap \\frac{3}{6} portion is filled in 1 hours or \\frac{1}{2} portion is filled in 1 hours So, total required time is = (3 + 1) hours = 4 hours$",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "Janata Officer-2019 | JB PLC-2019 | PKB Officer-2019 | PKB-2019 | PKSF Assistant Manager-2014 | PSC-2014 | PKSF Officer-2014 | PKSF-2014 | Exim Bank MTO-2013 | EXIM-2013",
+        "questionSource": "Janata Officer-2019 | JB PLC-2019 | PKB Officer-2019 | PKB-2019 | PKSF Assistant Manager-2014 | PSC-2014 | PKSF Officer-2014 | PKSF-2014 | Exim Bank MTO-2013 | EXIM-2013 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "Janata Officer-2019 | JB PLC-2019 | PKB Officer-2019 | PKB-2019 | PKSF Assistant Manager-2014 | PSC-2014 | PKSF Officer-2014 | PKSF-2014 | Exim Bank MTO-2013 | EXIM-2013",
+          "Janata Officer-2019",
+          "JB PLC-2019",
+          "PKB Officer-2019",
+          "PKB-2019",
+          "PKSF Assistant Manager-2014",
+          "PSC-2014",
+          "PKSF Officer-2014",
+          "PKSF-2014",
+          "Exim Bank MTO-2013",
+          "EXIM-2013"
+        ]
+      },
+      {
+        "text": "Water flows into an empty 64 gallon drum through pipe A and flows out through pipe B. If the rate of flow through A is 2 $\\frac{gallons}{hour}, how many gallons per hour must flow out through pipe B so that the drum is full in exactly 96 hours$? (একটি খালি ৬৪ গ্যালনের ড্রামে A পাইপ দিয়ে পানি প্রবেশ করে এবং B পাইপ দিয়ে বের হয়ে যায়। A পাইপে পানি প্রবেশের হার প্রতি ঘণ্টায় ২ গ্যালন হলে, ড্রামটি ঠিক ৯৬ ঘণ্টায় পূর্ণ হতে B পাইপ দিয়ে প্রতি ঘণ্টায় কত গ্যালন পানি বের হতে হবে?)",
+        "options": [
+          "$\\frac{3}{8}$",
+          "$\\frac{1}{2}$",
+          "$\\frac{2}{3}$",
+          "$\\frac{4}{3}$"
+        ],
+        "correctOptionIndex": 3,
+        "correctOptionIndices": [
+          3
+        ],
+        "isMultiSelect": false,
+        "explanation": "$──── SOLUTION 1 ──── Best Answer পাইপ B দিয়ে নির্গমনের হার x গ্যালন/ঘণ্টা। প্রশ্নমতে, ৯৬(২ - x) = ৬৪ \\Rightarrow ২ - x = \\frac{৬৪}{৯৬} \\Rightarrow ২ - x = \\frac{২}{৩} \\Rightarrow x = ২ - \\frac{২}{৩} \\Rightarrow x = \\frac{৪}{৩} ──── SOLUTION 2 ──── Let the required flow rate of pipe B be X gallons per hour. Together they fill (2 - X) gallons per hour. ATQ, \\frac{64}{2 - X} = 96) Or, \\frac{64}{96} = 2 - X Or, X = 2 - \\frac{64}{96} = \\frac{4}{3} gallons per hour.$",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "Mercantile MTO-2015 | MBL-2015 | Dhaka Bank MTO-2004 | Dhaka Bank-2004",
+        "questionSource": "Mercantile MTO-2015 | MBL-2015 | Dhaka Bank MTO-2004 | Dhaka Bank-2004 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "Mercantile MTO-2015 | MBL-2015 | Dhaka Bank MTO-2004 | Dhaka Bank-2004",
+          "Mercantile MTO-2015",
+          "MBL-2015",
+          "Dhaka Bank MTO-2004",
+          "Dhaka Bank-2004"
+        ]
+      },
+      {
+        "text": "2 large and 1 small pumps can fill a water tank in 4 hours. 1 large and 3 small pumps can also fill the same water tank in 4 hours. How many hours will it take for 3 large and 4 small pumps to fill the tank? (২টি বড় এবং ১টি ছোট পাম্প ৪ ঘণ্টায় একটি পানির ট্যাংক পূর্ণ করতে পারে। ১টি বড় এবং ৩টি ছোট পাম্পও ৪ ঘণ্টায় একই পানির ট্যাংক পূর্ণ করতে পারে। ৩টি বড় এবং ৪টি ছোট পাম্পের ট্যাংকটি পূর্ণ করতে কত ঘণ্টা সময় লাগবে?)",
+        "options": [
+          "$2 hours$",
+          "$2.5 hours$",
+          "$3 hours$",
+          "$3.5 hours$",
+          "$None of these$"
+        ],
+        "correctOptionIndex": 0,
+        "correctOptionIndices": [
+          0
+        ],
+        "isMultiSelect": false,
+        "explanation": "$──── SOLUTION 1 ──── Best Answer ধরি, ১টি বড় ও ১টি ছোট পাম্পের ১ ঘণ্টার কাজ যথাক্রমে L ও S। শর্তানুসারে, 2L + S = \\frac{1}{4} ...(i) এবং L + 3S = \\frac{1}{4} ...(ii) (i) ও (ii) হতে, 2L + S = L + 3S \\implies L = 2S (i) নং-এ L-এর মান বসিয়ে, 2(2S) + S = \\frac{1}{4} \\implies 5S = \\frac{1}{4} \\implies S = \\frac{1}{20} \\therefore L = 2 \\times \\frac{1}{20} = \\frac{1}{10} ৩টি বড় ও ৪টি ছোট পাম্পের ১ ঘণ্টার কাজ: = 3L + 4S = 3\\frac{(1}{10}) + 4\\frac{(1}{20}) = \\frac{3}{10} + \\frac{2}{20} = \\frac{5}{10} = \\frac{1}{2} অংশ \\therefore সম্পূর্ণ ট্যাংক পূর্ণ হতে সময় লাগবে = \\frac{1}{\\frac{1}{2}} = 2 ঘণ্টা। ──── SOLUTION 2 ──── Here, 2 large and 1 small pumps \\equiv 1 large and 3 small pumps Again, 3 large and 4 small pumps = 2 large and 1 small pumps + 1 large and 3 small pumps = 2 large and 1 small pumps + 2 large and 1 small pumps = 2 x (2 large and 1 small pumps) Now, 2 large and 1 small pumps can fill the tank in 4 hours So, 2 x (2 large and 1 small pumps) can fill the tank = \\frac{4}{2} = 2 hours$",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "Trust Asst. Officer-2012 | TBL-2012 | Exim Bank SO-2011 | EXIM-2011",
+        "questionSource": "Trust Asst. Officer-2012 | TBL-2012 | Exim Bank SO-2011 | EXIM-2011 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "Trust Asst. Officer-2012 | TBL-2012 | Exim Bank SO-2011 | EXIM-2011",
+          "Trust Asst. Officer-2012",
+          "TBL-2012",
+          "Exim Bank SO-2011",
+          "EXIM-2011"
+        ]
+      },
+      {
+        "text": "If a pipe fills a tank in h hours, what part of the tank does it fill in 2 hours? (যদি একটি পাইপ h ঘণ্টায় একটি ট্যাংক পূর্ণ করে, তবে ২ ঘণ্টায় ট্যাংকটির কত অংশ পূর্ণ হবে?)",
+        "options": [
+          "$\\frac{2}{h}$",
+          "$\\frac{h}{2}$",
+          "$2h$",
+          "1 − $\\frac{2}{h}$",
+          "$None of these$"
+        ],
+        "correctOptionIndex": 0,
+        "correctOptionIndices": [
+          0
+        ],
+        "isMultiSelect": false,
+        "explanation": "──── SOLUTION 1 ────\nh ঘণ্টায় পূর্ণ হয় 1 অংশ\n\\therefore 1 ঘণ্টায় পূর্ণ হয় $\\frac{1}{h}$ অংশ\n\\therefore 2 ঘণ্টায় পূর্ণ হয় $\\frac{2}{h}$ অংশ",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "ECS UEO/TEO-2008 | PSC-2008 | EBL Officer-2005 | EBL-2005",
+        "questionSource": "ECS UEO/TEO-2008 | PSC-2008 | EBL Officer-2005 | EBL-2005 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "ECS UEO/TEO-2008 | PSC-2008 | EBL Officer-2005 | EBL-2005",
+          "ECS UEO/TEO-2008",
+          "PSC-2008",
+          "EBL Officer-2005",
+          "EBL-2005"
+        ]
+      },
+      {
+        "text": "A water tank can be filled by two pipes A and B in 60 minutes and 40 minutes respectively. How many minutes will it take to fill the tank from empty state if B is used for half the time, and A B fill it together for the other half?",
+        "options": [
+          "$30 min$",
+          "$40 min$",
+          "$42 min$",
+          "$57 min$",
+          "$None of these$"
+        ],
+        "correctOptionIndex": 0,
+        "correctOptionIndices": [
+          0
+        ],
+        "isMultiSelect": false,
+        "explanation": "$──── SOLUTION 1 ──── Part filled by (A + B) in 1 minute = (\\frac{1}{60} + \\frac{1}{40}) = \\frac{1}{24} Suppose , the tank is filled in x minutes Then \\frac{x}{2} ( \\frac{1}{24} + \\frac{1}{40}) = 1 \\frac{x}{2} \\times \\frac{1}{15} = 1 x = 30 min$",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "Jamuna PO-2012 | Jamuna Bank-2012",
+        "questionSource": "Jamuna PO-2012 | Jamuna Bank-2012 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "Jamuna PO-2012 | Jamuna Bank-2012",
+          "Jamuna PO-2012",
+          "Jamuna Bank-2012"
+        ]
+      },
+      {
+        "text": "Two pipes A & B would fill a tank in 20 & 30 minutes respectively. Both pipes being open, find when A must be turned off so that tank may be just filled in 15 minutes.",
+        "options": [
+          "$After 10 minutes$",
+          "$After 20 minutes$",
+          "$After 15 minutes$",
+          "$None$"
+        ],
+        "correctOptionIndex": 0,
+        "correctOptionIndices": [
+          0
+        ],
+        "isMultiSelect": false,
+        "explanation": "$──── SOLUTION 1 ──── Let the time be T minutes after which pipe A need to turned off. Both of the pipes remain open together only for T minutes. Pipe A fills \\frac{1}{20} of the tank in 1 minute. Pipe B fills \\frac{1}{30} of the tank in 1 minute Together in 1 minute they fill (\\frac{1}{20} + \\frac{1}{30} = \\frac{1}{12}) of the tank. Together in T minutes they fill = \\frac{T}{12} of the tank In (15 - T) minutes, pipe B alone can fill = \\frac{15 - T}{30} of the tank Now, \\frac{T}{12} + \\frac{15 - T}{30} = 1 or, {15T + 6(15 - T)}/180 = 1 or, \\frac{15T + 90 - 6T}{180} = 1 or, 9T = 180 - 90 or, 9T = 90 So, T = 10 minutes$",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "Alfalah MTO-2005 | BAFL-2005",
+        "questionSource": "Alfalah MTO-2005 | BAFL-2005 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "Alfalah MTO-2005 | BAFL-2005",
+          "Alfalah MTO-2005",
+          "BAFL-2005"
+        ]
+      },
+      {
+        "text": "Two identical taps fill $\\frac{2}{5} of a tank in 20 minutes. When one of the taps goes dry in how many minutes will the remaining one tap fill the rest of the tank$? (দুটি একই ধরনের কল ২০ মিনিটে একটি ট্যাংকের(২)/(৫) অংশ পূর্ণ করে। একটি কল নষ্ট বা বন্ধ হয়ে গেলে, বাকি ১টি কল দ্বারা ট্যাংকের অবশিষ্ট অংশ পূর্ণ হতে কত মিনিট সময় লাগবে?)",
+        "options": [
+          "$5 min$",
+          "$10 min$",
+          "$60 min$",
+          "$20 min$",
+          "$None of these$"
+        ],
+        "correctOptionIndex": 2,
+        "correctOptionIndices": [
+          2
+        ],
+        "isMultiSelect": false,
+        "explanation": "$──── SOLUTION 1 ──── Best Answer 2 taps can fill in 20 minutes = \\frac{2}{5th} 1 tap can fill in 20 minutes = \\frac{1}{5th}. remaining portion to be filled up = 1 - \\frac{2}{5} = \\frac{3}{5}. \\frac{1}{5th} can be filled by 1 tap in 20 mins \\frac{3}{5th} can be filled by 1 tap in 20x3 mins = 60 minutes. (ans) ──── SOLUTION 2 ──── ২ টি নল \\frac{২}{৫} অংশ পূর্ণ করে = ২০ মিনিটে ১ টি নল \\frac{২}{৫} অংশ পূর্ণ করে = ২০ \\times ২ = ৪০ মিনিটে ১ টি নল ১ (সম্পূর্ণ) অংশ পূর্ণ করে = \\frac{৪০ \\times ৫}{২} = ১০০ মিনিটে অবশিষ্ট অংশ = ১ - \\frac{২}{৫} = \\frac{৩}{৫} অংশ সুতরাং, ১টি নলের বাকি \\frac{৩}{৫} অংশ পূর্ণ করতে সময় লাগবে = ১০০ \\times \\frac{৩}{৫} = ৬০ মিনিট।$",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "IBBL Officer-2010 | IBBL-2010 | Jamuna PO-2009 | Jamuna Bank-2009",
+        "questionSource": "IBBL Officer-2010 | IBBL-2010 | Jamuna PO-2009 | Jamuna Bank-2009 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "IBBL Officer-2010 | IBBL-2010 | Jamuna PO-2009 | Jamuna Bank-2009",
+          "IBBL Officer-2010",
+          "IBBL-2010",
+          "Jamuna PO-2009",
+          "Jamuna Bank-2009"
+        ]
+      },
+      {
+        "text": "Three pipes P, Q and R can fill a tank in 6 hours. After working all three together for 2 hours, R is closed and P and Q can fill the remaining part in 7 hours. The number of hours taken by R alone to fill the tank is- (তিনটি পাইপ P, Q এবং R একটি ট্যাংক ৬ ঘণ্টায় পূর্ণ করতে পারে। তিনটি পাইপ একসাথে ২ ঘণ্টা কাজ করার পর R বন্ধ করে দেওয়া হয় এবং P ও Q বাকি অংশ ৭ ঘণ্টায় পূর্ণ করে। একা R পাইপটির ট্যাংকটি পূর্ণ করতে কত ঘণ্টা সময় লাগবে?)",
+        "options": [
+          "$10$",
+          "$12$",
+          "$14$",
+          "$16$",
+          "$None of these$"
+        ],
+        "correctOptionIndex": 2,
+        "correctOptionIndices": [
+          2
+        ],
+        "isMultiSelect": false,
+        "explanation": "$──── SOLUTION 1 ──── Best Answer P, Q, R একত্রে ১ ঘণ্টায় করে =\\frac{১}{৬} অংশ P, Q, R একত্রে ২ ঘণ্টায় করে =\\frac{২}{৬}=\\frac{১}{৩} অংশ অবশিষ্ট অংশ =১-\\frac{১}{৩}=\\frac{২}{৩} অংশ P ও Q, \\frac{২}{৩} অংশ পূর্ণ করে ৭ ঘণ্টায় \\therefore P ও Q, ১ অংশ পূর্ণ করে =\\frac{৭ \\times ৩}{২}=\\frac{২১}{২} ঘণ্টায় P ও Q, ১ ঘণ্টায় পূর্ণ করে =\\frac{২}{২১} অংশ \\therefore R একা ১ ঘণ্টায় করে =\\frac{১}{৬}-\\frac{২}{২১} =\\frac{৭-৪}{৪২}=\\frac{৩}{৪২}=\\frac{১}{১৪} অংশ \\therefore R একা সম্পূর্ণ ট্যাংকটি পূর্ণ করে ১৪ ঘণ্টায়। ──── SOLUTION 2 ──── P, Q & R alltogether can fill \\frac{1}{6} th of the tank in 1 hour So, in 2 hours they fill = 2\\\\frac{times1}{6} = \\frac{1}{3} of the tank Remining part to be filled = 1 - \\frac{1}{3} = \\frac{2}{3} of the tank P & Q together in 7 hours can fill \\frac{2}{3} of the tank So, P & Q together in hour can fill = \\frac{2}{3\\times7} = \\frac{2}{21} of the tank So, R alone can fill in 1 hour = \\frac{1}{6} - \\frac{2}{21} = \\frac{7 - 4}{42} = \\frac{1}{14} of the tank Therefore, R alone can fill the tank in 14 hours.$",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "BASIC Officer-2018 | BASIC Bank-2018 | Standard MTO-2016 | Standard Bank-2016 | BASIC Asst. Officer-2009 | BASIC Bank-2009",
+        "questionSource": "BASIC Officer-2018 | BASIC Bank-2018 | Standard MTO-2016 | Standard Bank-2016 | BASIC Asst. Officer-2009 | BASIC Bank-2009 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "BASIC Officer-2018 | BASIC Bank-2018 | Standard MTO-2016 | Standard Bank-2016 | BASIC Asst. Officer-2009 | BASIC Bank-2009",
+          "BASIC Officer-2018",
+          "BASIC Bank-2018",
+          "Standard MTO-2016",
+          "Standard Bank-2016",
+          "BASIC Asst. Officer-2009",
+          "BASIC Bank-2009"
+        ]
+      },
+      {
+        "text": "একটি নৌকার তলদেশ ছিদ্র হওয়ায় তা ৬ ঘণ্টায় ডুবে যেতে পারে। কিন্তু পাম্পের সাহায্যে ৮ ঘণ্টায় নৌকাটি জলশূন্য করা যায়। যদি নৌকাটি তীর হতে ১৬৮ কি.মি. দূরে থাকে, তাহলে কত বেগে চললে নৌকাটি তীরে পৌঁছানোর সাথে সাথে ডুবে যাবে?",
+        "options": [
+          "৫ কি.মি/ঘণ্টা",
+          "৬ কি.মি/ঘণ্টা",
+          "৭ কি.মি/ঘণ্টা",
+          "৮ কি.মি/ঘণ্টা",
+          "কোনটিই নয়"
+        ],
+        "correctOptionIndex": 2,
+        "correctOptionIndices": [
+          2
+        ],
+        "isMultiSelect": false,
+        "explanation": "──── SOLUTION 1 ────\nBest Answer প্রতি ঘন্টায় কত অংশ পানির নিচে ডুবছে, তা বের করতে পারলেই উত্তর বের হইয়ে যায়।৬ ঘন্টায় নৌকার x অংশ ডুবে যায় (হিসাবের সুবিধার জন্যে ধরি নৌকার সম্পূর্ণ অংশ x )।তাহলে ১ ঘন্টায় ডোবে x / ৬ অংশ, আর ৮ ঘন্টায় জলশূন্য হয় x / ৮ অংশ।তাহলে ১ ঘন্টায় জলে ডোবে নৌকার= (x / ৬$) - (x$ / ৮$) = x$ / ২৪ অংশ। x / ২৪ অংশ জলে ডোবে ১ ঘন্টায়১ অংশ জলে ডোবে (২৪ * ১$) / x$ ঘন্টায়x অংশ (সম্পূর্ণ) ডোবে (২৪ * x $) / x$ ঘন্টায় = ২৪ ঘন্টায়।২৪ ঘন্টায় যদি পার হয় ১৬৮ কি.মি. তাহলে ১ ঘন্টায় পার হয় ( ১৬৮/২৪) = ৭ কি.মি.। সুতরাং নৌকার বেগ হতে হবে ৭ কি.মি./ ঘন্টা।\n──── SOLUTION 2 ────\n১ ঘণ্টায় নিট পানি প্রবেশ করে = ((১)/(৬) - (১)/(৮)) = (১)/(২৪) অংশ\n\\therefore নৌকাটি ডুবতে সময় লাগবে = ২৪ ঘণ্টা\nপ্রয়োজনীয় বেগ = (১৬৮)/(২৪) = ৭ কি.মি/ঘণ্টা",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "GTCL – Assistant Manager-2021 | PSC-2021 | BKB Senior Officer-2015 | Krishi Bank-2015",
+        "questionSource": "GTCL – Assistant Manager-2021 | PSC-2021 | BKB Senior Officer-2015 | Krishi Bank-2015 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "GTCL – Assistant Manager-2021 | PSC-2021 | BKB Senior Officer-2015 | Krishi Bank-2015",
+          "GTCL – Assistant Manager-2021",
+          "PSC-2021",
+          "BKB Senior Officer-2015",
+          "Krishi Bank-2015"
+        ]
+      },
+      {
+        "text": "Two pipes A and B can fill a tank in 15 minutes and 20 minutes respectively. Both the pipes are opened together but after 4 minutes, pipe A is turned off. What is the total time required to fill the tank?",
+        "options": [
+          "$10 min 20 \\sec$",
+          "$11 min 45 \\sec$",
+          "$12 min 30 \\sec$",
+          "$14 min 40 \\sec$"
+        ],
+        "correctOptionIndex": 3,
+        "correctOptionIndices": [
+          3
+        ],
+        "isMultiSelect": false,
+        "explanation": "$──── SOLUTION 1 ──── By pipe A and B Part filled in 4 minutes = 4\\times( \\frac{1}{15} + \\frac{1}{20}) = \\frac{7}{15} Remaining part = 1 - \\frac{7}{15} = \\frac{8}{15} part filled by B in 1 minute = \\frac{1}{20} By B, \\frac{1}{20} part can be filled in 1 minute \\frac{8}{15} part can be filled in ( 20\\times8)\\frac{o}{15} = 10 min 40 \\sec So, total time required ( 4 min + 10min 40 \\sec ) = 14 min 40 \\sec .$",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "PKB Senior Officer-2014 | PKB-2014",
+        "questionSource": "PKB Senior Officer-2014 | PKB-2014 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "PKB Senior Officer-2014 | PKB-2014",
+          "PKB Senior Officer-2014",
+          "PKB-2014"
+        ]
+      },
+      {
+        "text": "The length, width, and depth of a rectangular box are 6 feet, 5 feet, and 7 feet, respectively, A pipe supplies water at a rate of 6 cubic feet per minute. How much time, in minutes, would it take for the pipe to fill a conical box whose volume is three times the volume of the rectangular box?",
+        "options": [
+          "$105$",
+          "$125$",
+          "$205$",
+          "$235$",
+          "$None of these$"
+        ],
+        "correctOptionIndex": 0,
+        "correctOptionIndices": [
+          0
+        ],
+        "isMultiSelect": false,
+        "explanation": "──── SOLUTION 1 ────\nVolume of the $box = 6\\times5\\times7 So, there time the volume = 3\\times6\\times5\\times7 6 cubic feet filled in 1 minutes So, 3\\times6\\times5\\times7 in 1 minutes = \\frac{6\\times5\\times7\\times3}{6} = 105 minutes$",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "Union MTO-2014 | Union Bank-2014",
+        "questionSource": "Union MTO-2014 | Union Bank-2014 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "Union MTO-2014 | Union Bank-2014",
+          "Union MTO-2014",
+          "Union Bank-2014"
+        ]
+      },
+      {
+        "text": "Pipe A can fill a tank in 5 hours, pipe B in 10 hours and pipe C in 30 hours. If all the pipes are open, in how many will the tank be filled?",
+        "options": [
+          "$2$",
+          "$2.5$",
+          "$3$",
+          "$3.5$"
+        ],
+        "correctOptionIndex": 2,
+        "correctOptionIndices": [
+          2
+        ],
+        "isMultiSelect": false,
+        "explanation": "$──── SOLUTION 1 ──── Hints: Pipe A, B, and C can fill the tank in 1 hour ( \\frac{1}{5} + \\frac{1}{10} + \\frac{1}{30}) portion = \\frac{12 + 6 + 2}{6o} portion = \\frac{20}{60} portion = \\frac{1}{3} portion All three pipes will fill the tank in 3 hours.$",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "PKB Senior Officer-2014 | PKB-2014",
+        "questionSource": "PKB Senior Officer-2014 | PKB-2014 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "PKB Senior Officer-2014 | PKB-2014",
+          "PKB Senior Officer-2014",
+          "PKB-2014"
+        ]
+      },
+      {
+        "text": "A water tank is $two-fifth full. Pipe A can fill a tank in 10 minutes and pipe B can empty it in 6 minutes. If both the pipes are open, how long will it take to empty or fill the tank completely$?",
+        "options": [
+          "$6 min to empty$",
+          "$6 min to fill$",
+          "$9 min to empty$",
+          "$9 min to fill$"
+        ],
+        "correctOptionIndex": 0,
+        "correctOptionIndices": [
+          0
+        ],
+        "isMultiSelect": false,
+        "explanation": "$──── SOLUTION 1 ──── Hints: Clearly, pipe B is faster than pipe A and So, the tank will be emptied.Part to be emptied = \\frac{2}{5} part emptied by ( A + B) in 1 minute = \\frac{1}{6} - \\frac{1}{10} = \\frac{1}{15} \\frac{1}{15} : \\frac{2}{5} = \\frac{1}{x} \\frac{1}{15} \\times \\frac{5}{2} = \\frac{1}{x} x = \\frac{30}{5} x = 6 So, tank will be emptied in 6 min$",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "Janata Senior Officer-2015 | JB PLC-2015",
+        "questionSource": "Janata Senior Officer-2015 | JB PLC-2015 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "Janata Senior Officer-2015 | JB PLC-2015",
+          "Janata Senior Officer-2015",
+          "JB PLC-2015"
+        ]
+      },
+      {
+        "text": "Two pipes A and B can fill a tank in 6 hours and 4 hours respectively. If they are opened on alternate hours and if pipe A is opened first, in how many hours, the tank shall be full?",
+        "options": [
+          "$4$",
+          "$4.5$",
+          "$5$",
+          "$5.5$"
+        ],
+        "correctOptionIndex": 2,
+        "correctOptionIndices": [
+          2
+        ],
+        "isMultiSelect": false,
+        "explanation": "No worked solution text was provided on the source page",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "Janata Senior Officer-2015 | JB PLC-2015",
+        "questionSource": "Janata Senior Officer-2015 | JB PLC-2015 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "Janata Senior Officer-2015 | JB PLC-2015",
+          "Janata Senior Officer-2015",
+          "JB PLC-2015"
+        ]
+      },
+      {
+        "text": "Two taps A and B can fill a tank in 5 hours and 20 hours respectively. If both the taps are open then due to a leakage, it took 30 minutes more to fill the tank. If the tank is full, how long will it take for the leakage alone to empty the tank?",
+        "options": [
+          "$4.5 hrs$",
+          "$7 hrs$",
+          "$18 hrs$",
+          "$36 hrs$"
+        ],
+        "correctOptionIndex": 3,
+        "correctOptionIndices": [
+          3
+        ],
+        "isMultiSelect": false,
+        "explanation": "$──── SOLUTION 1 ──── A ও B একত্রে tank টি পূর্ন করে = 20\\\\frac{times5}{20}\\times5 = \\frac{100}{25} ঘন্টা = 4 ঘন্টা। Leakage সহ A ও B tank টি পূর্ণ করে ( 4 + \\frac{1}{2}) ঘন্টায় = \\frac{9}{2} ঘন্টায় Leakage 1 ঘন্টায় খালি করে ( \\frac{1}{4} - \\frac{2}{9}) অংশ = 9 - \\frac{8}{36} = \\frac{1}{36} Leakage দ্বারা tank টি খালি হয়. 36 ঘন্টায়$",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "Janata Senior Officer-2017 | JB PLC-2017",
+        "questionSource": "Janata Senior Officer-2017 | JB PLC-2017 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "Janata Senior Officer-2017 | JB PLC-2017",
+          "Janata Senior Officer-2017",
+          "JB PLC-2017"
+        ]
+      },
+      {
+        "text": "Three taps A, B and C can fill a tank in 12,25 and 20 hours respectively. If a is open all the time and B and C are open for one hour each alternately, the tank will be full in :",
+        "options": [
+          "$7 hrs$",
+          "$6.5 hrs$",
+          "$7.5 hrs$",
+          "$5.0 hrs$"
+        ],
+        "correctOptionIndex": 0,
+        "correctOptionIndices": [
+          0
+        ],
+        "isMultiSelect": false,
+        "explanation": "$──── SOLUTION 1 ──── Hints: Answer not given. A + B s 1 hour work = ( \\frac{1}{12} + \\frac{1}{15}) = \\frac{3}{20} A + C s hours work = ( \\frac{1}{12} + \\frac{1}{20}) = \\frac{2}{15} Part filled in 2 hrs = ( \\frac{3}{20} + \\frac{2}{15}) = \\frac{17}{60} part filled 6 hrs = (3\\times \\frac{17}{60}) = \\frac{17}{20} Remaining part = ( 1 - \\frac{17}{20}) = \\frac{3}{20} Now, it is the turn of A and B and \\frac{3}{20} part is filled by A and B in 1 hour Total time taken to fill the tank = ( 6 + 1) = 7 hrs$",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "Exim Bank TO-2016 | EXIM-2016",
+        "questionSource": "Exim Bank TO-2016 | EXIM-2016 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "Exim Bank TO-2016 | EXIM-2016",
+          "Exim Bank TO-2016",
+          "EXIM-2016"
+        ]
+      },
+      {
+        "text": "A 12 gallon tub has a faucet that lets water in at a rate of 3 gallons per minute, and has a drain that lets water out at a rate of 1.5 gallons per minute. If you start with 3 gallons of water in the tub, how long will it take to fill the tub completely?",
+        "options": [
+          "$6 minutes$",
+          "$7 minutes$",
+          "$8 minutes$",
+          "$9 minutes$",
+          "$None of these$"
+        ],
+        "correctOptionIndex": 0,
+        "correctOptionIndices": [
+          0
+        ],
+        "isMultiSelect": false,
+        "explanation": "No worked solution text was provided on the source page",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "Exim Bank TO-2015 | EXIM-2015",
+        "questionSource": "Exim Bank TO-2015 | EXIM-2015 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "Exim Bank TO-2015 | EXIM-2015",
+          "Exim Bank TO-2015",
+          "EXIM-2015"
+        ]
+      },
+      {
+        "text": "Rehana leaves her home early in the morning so that she can reach her office on time. If she walks at the rate of 7 $\\frac{km}{hr} then she reaches her office 8 minutes late. But, if she walks at a speed of 8 \\frac{km}{hr}, then she reaches her 4 minutes early. What is the distance in km between Rehana$'s house and her office?",
+        "options": [
+          "$10$",
+          "$11.2$",
+          "$11.5$",
+          "$12$",
+          "$None of these$"
+        ],
+        "correctOptionIndex": 1,
+        "correctOptionIndices": [
+          1
+        ],
+        "isMultiSelect": false,
+        "explanation": "$──── SOLUTION 1 ──── In both situation she is walking the same distance. So rate \\times time for first trial has to be equal for rate\\times time for second trial. We know that trial 1 takes (8 + 4) men or 12 min or \\frac{12}{60} hrs longer than trial 2 let time for trial 2 be T So, 8\\timesT = 7 \\times \\frac{T + (12}{60}) T = 7 \\times \\frac{12}{60} = \\frac{7}{5} so Distance = 8\\timesT = \\frac{8 \\times 7}{5} = \\frac{56}{5} = 11.2 km$",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "MTB MTO-2014 | MTB-2014",
+        "questionSource": "MTB MTO-2014 | MTB-2014 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "MTB MTO-2014 | MTB-2014",
+          "MTB MTO-2014",
+          "MTB-2014"
+        ]
+      },
+      {
+        "text": "২টি পাইপ দ্বারা একটি ৪০০ লিটারের ট্যাংক যথাক্রমে ২ ও ৪ ঘন্টায় ভর্তি হয়। অপর একটি পাইপ এটিকে ৮ ঘন্টায় খালি করতে পারে। সবগুলো পাইপ একসাথে খুলে দিলে ১ ঘন্টা পর ট্যাংকটিতে কতটুকু পানি অবশিষ্ট থাকবে?",
+        "options": [
+          "১০০ লিঃ",
+          "২৫০ লিঃ",
+          "৪০০ লিঃ",
+          "০লিঃ"
+        ],
+        "correctOptionIndex": 1,
+        "correctOptionIndices": [
+          1
+        ],
+        "isMultiSelect": false,
+        "explanation": "──── SOLUTION 1 ────\n১ম নল দ্বারা ১ ঘন্টায় পূর্ণ হয় (১/২) অংশ২য় নল দ্বারা ১ ঘন্টায় পূর্ণ হয় ( ১/৪) অংশ ৩য় নল দ্বারা ১ ঘন্টায় খালি হয় (১/৮) অংশ এখন, তিনটি নল একসাথে খুলে দিলে ১ ঘন্টায় চৌবাচ্চাটির {(১/২)+(১/৪)-(১/৮)} = (৪+২-১)/৮= ৫/৮ অংশ পূর্ণ হয়।১ অংশ = ৪০০ লিটার ৫/৮ অংশ =( ৪০০\\times৫)/৮ = ২৫০ লিটার।উত্তরঃ ২৫০ লিটার।",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "BKB Officer (Cash)-2010 | Krishi Bank-2010",
+        "questionSource": "BKB Officer (Cash)-2010 | Krishi Bank-2010 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "BKB Officer (Cash)-2010 | Krishi Bank-2010",
+          "BKB Officer (Cash)-2010",
+          "Krishi Bank-2010"
+        ]
+      },
+      {
+        "text": "Two pipes can fill a tank in 20 and 24 minutes respectively and a waste pipe can empty 3 gallons per minute. All the three pipes working together can fill the tank in 15 minutes. The capacity of the tank is — (দুটি পাইপ যথাক্রমে ২০ ও ২৪ মিনিটে একটি ট্যাংক পূর্ণ করতে পারে এবং একটি নিকাশ পাইপ প্রতি মিনিটে ৩ গ্যালন পানি বের করে দিতে পারে। তিনটি পাইপ একসাথে চালু থাকলে ১৫ মিনিটে ট্যাংকটি পূর্ণ হয়। ট্যাংকটির ধারণক্ষমতা কত?)",
+        "options": [
+          "$60 gallons$",
+          "$120 gallons$",
+          "$150 gallons$",
+          "$170 gallons$",
+          "$None of these$"
+        ],
+        "correctOptionIndex": 1,
+        "correctOptionIndices": [
+          1
+        ],
+        "isMultiSelect": false,
+        "explanation": "──── SOLUTION 1 ────\nBest Answer ১ম ও ২য় নল ১ মিনিটে পূর্ণ করে = ((১)/(২০) + (১)/(২৪)) অংশ\n= (৬ + ৫)/(১২০) = (১১)/(১২০) অংশ\nখালি করার নল ১ মিনিটে খালি করে = ((১১)/(১২০) - (১)/(১৫)) অংশ\n= (১১ - ৮)/(১২০) = (৩)/(১২০) = (১)/(৪০) অংশ\nনলটি দিয়ে সম্পূর্ণ খালি হতে সময় লাগে = ৪০ মিনিট\nচৌবাচ্চার ধারণক্ষমতা = (৪০ \\times ৩) = ১২০ গ্যালন\n──── SOLUTION 2 ────\nডেঙ্গু জ্বর ভাইরাসজনিত। ডেঙ্গ ভাইরাস হলো ক্ল্যাভি ভাইরাস গ্রুপের সদস্য যা এক ধরনের ভাইরাস। ডেঙ্গু ভাইরাসবাহী মশা হলো এডিস ইজিপটাই।",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "BNFE – OACT -2025 | PSC-2025 | DBBL PO-2012 | DBBL-2012",
+        "questionSource": "BNFE – OACT -2025 | PSC-2025 | DBBL PO-2012 | DBBL-2012 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "BNFE – OACT -2025 | PSC-2025 | DBBL PO-2012 | DBBL-2012",
+          "BNFE – OACT -2025",
+          "PSC-2025",
+          "DBBL PO-2012",
+          "DBBL-2012"
+        ]
+      },
+      {
+        "text": "A tank can be filled by a tap in 20 minutes and by another tap in 60 minutes . Both the taps are kept open for 10 minutes and then the first tap is shut off. After this, the tank will be completely filled in what time? (একটি পানির কল দিয়ে একটি ট্যাংক ২০ মিনিটে এবং অপর একটি কল দিয়ে ৬০ মিনিটে পূর্ণ হয়। দুটি কলই ১০ মিনিট খোলা রাখার পর প্রথম কলটি বন্ধ করে দেওয়া হলো। এর কত সময় পর ট্যাংকটি সম্পূর্ণরূপে পূর্ণ হবে?)",
+        "options": [
+          "$10 min$",
+          "$15 min$",
+          "$20 min$",
+          "$25 min$"
+        ],
+        "correctOptionIndex": 2,
+        "correctOptionIndices": [
+          2
+        ],
+        "isMultiSelect": false,
+        "explanation": "$──── SOLUTION 1 ──── Best Answer ১ম ও ২য় নল একত্রে ১ মিনিটে পূর্ণ করে = \\frac{১}{২০} + \\frac{১}{৬০} = \\frac{১}{১৫} অংশ ১০ মিনিটে পূর্ণ হয় = ১০ \\times \\frac{১}{১৫} = \\frac{২}{৩} অংশ অবশিষ্ট থাকে = ১ - \\frac{২}{৩} = \\frac{১}{৩} অংশ পরবর্তীতে ২য় নলের সময় লাগবে = \\frac{১}{৩} \\times ৬০ = ২০ মিনিট। ──── SOLUTION 2 ──── In 10 minutes two taps cal fill = ( \\frac{10}{20} + \\frac{10}{60}) portion = ( \\frac{1}{2} + \\frac{1}{6}) = ( 3 + \\frac{1}{6}) = \\frac{2}{3} portion. Remaining portion ( 1 - \\frac{2}{3}) = \\frac{1}{3} 2nd tap \\frac{1}{60} portion can fills in 1 minutes 2nd tap \\frac{1}{3} portion can fills in = \\frac{60}{3} minutes = 20 minutes$",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "Sonali Officer-2018 | Sonali Bank-2018 | Sonali Officer (Cash)-2018",
+        "questionSource": "Sonali Officer-2018 | Sonali Bank-2018 | Sonali Officer (Cash)-2018 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "Sonali Officer-2018 | Sonali Bank-2018 | Sonali Officer (Cash)-2018",
+          "Sonali Officer-2018",
+          "Sonali Bank-2018",
+          "Sonali Officer (Cash)-2018"
+        ]
+      },
+      {
+        "text": "A water tank has two taps $(Tap-1 and Tap-2). Tap -1 can fill a tank in 8 hours and Tap-2 can empty the tank in 16 hours. How long will they take to fill the tank if both taps are opened simultaneously but Tap-2 is closed after 8 hours$?",
+        "options": [
+          "$10$",
+          "$12$",
+          "$14$",
+          "$16$"
+        ],
+        "correctOptionIndex": 1,
+        "correctOptionIndices": [
+          1
+        ],
+        "isMultiSelect": false,
+        "explanation": "$──── SOLUTION 1 ──── Best Answer ১ম নল দ্বারা ১ ঘণ্টায় পূর্ণ হয় = \\frac{১}{৮} অংশ ২য় নল দ্বারা ১ ঘণ্টায় খালি হয় = \\frac{১}{১৬} অংশ ৮ ঘণ্টায় উভয় নল দ্বারা পূর্ণ হয় = ৮ \\times \\frac{(১}{৮} - \\frac{১}{১৬}) = ৮ \\times \\frac{১}{১৬} = \\frac{১}{২} অংশ অবশিষ্ট থাকে = ১ - \\frac{১}{২} = \\frac{১}{২} অংশ অবশিষ্ট অংশ ১ম নল দ্বারা পূর্ণ হতে সময় লাগে = \\frac{(১}{২} \\div \\frac{১}{৮}) = ৪ ঘণ্টা মোট সময় = (৮ + ৪) = ১২ ঘণ্টা ──── SOLUTION 2 ──── Let's find the rates at which each tap can fill or empty the tank:Tap-1 can fill the tank in 8 hours, so its rate is 1 tank per 8 hours, which can be represented as \\frac{1}{8} tank per hour.Tap-2 can empty the tank in 16 hours, so its rate is -1 tank per 16 hours, which can be represented as -\\frac{1}{16} tank per hour since it's emptying the tank.Now, when both taps are opened simultaneously, their rates are combined. So, the combined rate of filling the tank when both taps are open is:Rate = (Rate of Tap-1) + (Rate of Tap-2) Rate = (\\frac{1}{8}) + (-\\frac{1}{16})Now, let's find a common denominator to add the rates:Rate = (\\frac{2}{16}) - (\\frac{1}{16}) Rate = \\frac{1}{16} tank per hourSo, when both taps are open, they fill the tank at a rate of \\frac{1}{16} tank per hour.Now, we want to know how long it takes to fill the tank completely. Let's denote the time it takes to fill the tank as \"t\" hours.During the first 8 hours, both taps are open, so they fill the tank at a rate of \\frac{1}{16} tank per hour for 8 hours:(\\frac{1}{16}) \\cdot 8 = \\frac{1}{2} tank (filled in the first 8 hours)Now, for the remaining time \"t - 8\" hours, only Tap-1 is open, and it fills the tank at a rate of \\frac{1}{8} tank per hour:(\\frac{1}{8}) \\cdot (t - 8) = \\frac{t - 8}{8} tank (filled in the remaining time)The total tank capacity is 1 (since we want to fill the tank completely).So, we can write the equation:\\frac{1}{2} (filled in the first 8 hours) + \\frac{t - 8}{8} (filled in the remaining time) = 1 (total capacity)Now, solve for \"t\":\\frac{1}{2} + \\frac{t - 8}{8} = 1Multiply both sides by 8 to get rid of the fractions:4 + t - 8 = 8Now, isolate \"t\":t - 4 = 8t = 8 + 4 t = 12So, it will take 12 hours to fill the tank completely if both taps are opened simultaneously, but Tap-2 is closed after 8 hours.$",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "Combined Bank Senior Officer (IT)-2018 | Combined Bank-2018 | BASIC Officer-2018 | BASIC Bank-2018",
+        "questionSource": "Combined Bank Senior Officer (IT)-2018 | Combined Bank-2018 | BASIC Officer-2018 | BASIC Bank-2018 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "Combined Bank Senior Officer (IT)-2018 | Combined Bank-2018 | BASIC Officer-2018 | BASIC Bank-2018",
+          "Combined Bank Senior Officer (IT)-2018",
+          "Combined Bank-2018",
+          "BASIC Officer-2018",
+          "BASIC Bank-2018"
+        ]
+      },
+      {
+        "text": "A pipe of 2 inch diameter fills a water tank in one hour. If the diameter of the pipe is 4 inch in what time will the pipe fill the same tank? (২ ইঞ্চি ব্যাসের একটি পাইপ এক ঘণ্টায় একটি পানির ট্যাংক পূর্ণ করে। পাইপটির ব্যাস ৪ ইঞ্চি হলে একই ট্যাংক পূর্ণ করতে পাইপটির কত সময় লাগবে?)",
+        "options": [
+          "$10 minutes$",
+          "$15 minutes$",
+          "$30 minutes$",
+          "$45 minutes$",
+          "$None of these$"
+        ],
+        "correctOptionIndex": 1,
+        "correctOptionIndices": [
+          1
+        ],
+        "isMultiSelect": false,
+        "explanation": "──── SOLUTION 1 ────\nBest Answer নলের প্রবাহের ক্ষমতা ব্যাসের বর্গের সমানুপাতিক।\nতাই ট্যাংক পূর্ণ হওয়ার সময় ব্যাসের বর্গের ব্যস্তানুপাতিক।\n(t_$2)/($t_1$) = \\frac{(}$d_1$}{$d_2$})$^2\n\\Rightarrow ($t_2$)/(৬০ মিনিট) = ((২)/(৪))^2\n\\Rightarrow ($t_2$)/(৬০) = (১)/(৪)\n\\Rightarrow $t_2$ = (৬০)/(৪) = ১৫ মিনিট।\n──── SOLUTION 2 ────\nDiameter দিয়ে বৃত্তের Area equation = (\\pid^2$)/(4)$\nযদি diameter double হয়, তবে Area বর্গ আকাড়ে বাড়ে।\nso $time = \\frac{60min}{4} = 15 min$",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "IFIC MTO-2013 | IFIC-2013",
+        "questionSource": "IFIC MTO-2013 | IFIC-2013 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "IFIC MTO-2013 | IFIC-2013",
+          "IFIC MTO-2013",
+          "IFIC-2013"
+        ]
+      },
+      {
+        "text": "একটি নল ১২ মিনিটে একটি খালি চৌবাচ্চা পূর্ণ করে। অপর এক নল প্রতি মিনিটে ১৪ লিটার পানি বের করে দেয়। চৌবাচ্চাটি খালি থাকা অবস্থায় নল দুটি খুলে দিলে ৯৬ মিনিটে উহা পূর্ণ হয়। চৌবাচ্চাটিতে কত লিটার পানি ধরে?",
+        "options": [
+          "১৪৫ লিটার",
+          "১৫৫ লিটার",
+          "২০৮ লিটার",
+          "১৯২ লিটার"
+        ],
+        "correctOptionIndex": 3,
+        "correctOptionIndices": [
+          3
+        ],
+        "isMultiSelect": false,
+        "explanation": "No worked solution text was provided on the source page",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "MoD AD-2018 | PSC-2018",
+        "questionSource": "MoD AD-2018 | PSC-2018 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "MoD AD-2018 | PSC-2018",
+          "MoD AD-2018",
+          "PSC-2018"
+        ]
+      },
+      {
+        "text": "Pipes A and B can fill a tank in 5 and 6 hours respectively. Pipe C can empty it in 12 hours. If all the three pipes are opened together, then the tank will be filled in:",
+        "options": [
+          "$2\\frac{8}{11} hours$",
+          "$3\\frac{9}{17}hours$",
+          "$4\\frac{1}{2} hours$",
+          "$1\\frac{13}{17}hours$"
+        ],
+        "correctOptionIndex": 1,
+        "correctOptionIndices": [
+          1
+        ],
+        "isMultiSelect": false,
+        "explanation": "$──── SOLUTION 1 ──── A in 1 hour fills \\frac{1}{5} part B in 1 hour fills \\frac{1}{6} part C in one hour empties \\frac{1}{12} Part Together they fill in 1 hour = \\frac{1}{5} + \\frac{1}{6} - \\frac{1}{12} = \\frac{12 + 10 - 5}{60} = \\frac{17}{60} part Total Time = \\frac{60}{17} = 3 (\\frac{9}{17}) hours$",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "BB Officer (Cash)-2016 | BB-2016",
+        "questionSource": "BB Officer (Cash)-2016 | BB-2016 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "BB Officer (Cash)-2016 | BB-2016",
+          "BB Officer (Cash)-2016",
+          "BB-2016"
+        ]
+      },
+      {
+        "text": "A tank is filled in 5 hours by three pipes A, B and C. The pipe C is twice as fast as B and B is twice as fast as A. How much time will pipe A alone take to fill the tank? (তিনটি পাইপ A, B এবং C দ্বারা একটি ট্যাংক ৫ ঘণ্টায় পূর্ণ হয়। C পাইপটি B এর চেয়ে দ্বিগুণ দ্রুত এবং B পাইপটি A এর চেয়ে দ্বিগুণ দ্রুত কাজ করে। শুধু A পাইপ দ্বারা ট্যাংকটি পূর্ণ হতে কত সময় লাগবে?)",
+        "options": [
+          "$20 hours$",
+          "$25 hours$",
+          "$30 hours$",
+          "$35 hours$",
+          "$None of these$"
+        ],
+        "correctOptionIndex": 3,
+        "correctOptionIndices": [
+          3
+        ],
+        "isMultiSelect": false,
+        "explanation": "$──── SOLUTION 1 ──── Best Answer ধরি, A-এর কর্মদক্ষতা = x B-এর কর্মদক্ষতা = 2x C-এর কর্মদক্ষতা = 2 \\times 2x = 4x A, B ও C-এর মোট দক্ষতা = x + 2x + 4x = 7x চৌবাচ্চার মোট ধারণক্ষমতা = 5 \\times 7x = 35x A একা পূর্ণ করতে সময় নেবে = \\frac{35x}{x} = 35 ঘণ্টা। ──── SOLUTION 2 ──── Let, Pipe C need to fill the tank = x hours Pipe B need to fill the tank = 2x hours Pipe, A need to fill the tank = 4x hours ( A + B + C) together at 1 hour fill \\frac{1}{5} portion Again, C fill the tank at 1 hour = \\frac{1}{x} portion B fill the tank at 1 hour = \\frac{1}{2x} portion A fill the tank at 1 hour = \\frac{1}{4x} portion According to question, \\frac{1}{x} + \\frac{1}{2x} + \\frac{1}{4x} = \\frac{1}{5} \\frac{ 4 + 2 + 1}{4x} = \\frac{1}{5} \\frac{7}{4x} = \\frac{1}{5} 4x = 35 x = \\frac{35}{4} Pipe A take to fill the tank = 4x = 4 \\times \\frac{35}{4} = 35 hours$",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "Combined Bank Officer-2019 | Combined Bank-2019 | Exim Bank Officer (Cash)-2013 | EXIM-2013",
+        "questionSource": "Combined Bank Officer-2019 | Combined Bank-2019 | Exim Bank Officer (Cash)-2013 | EXIM-2013 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "Combined Bank Officer-2019 | Combined Bank-2019 | Exim Bank Officer (Cash)-2013 | EXIM-2013",
+          "Combined Bank Officer-2019",
+          "Combined Bank-2019",
+          "Exim Bank Officer (Cash)-2013",
+          "EXIM-2013"
+        ]
+      },
+      {
+        "text": "Pipe A alone can fill a tank in 8 hours .Pipe B can fill it in 6 hours . If both the pipes are operated and after 2 hours pipe A is closed, then the other pipe will fill the tank in.",
+        "options": [
+          "$6 hours$",
+          "$3 \\frac{1}{2} hours$",
+          "$4 hours$",
+          "$2 \\frac{1}{2} hours$"
+        ],
+        "correctOptionIndex": 3,
+        "correctOptionIndices": [
+          3
+        ],
+        "isMultiSelect": false,
+        "explanation": "──── SOLUTION 1 ────\nবিস্তারিত সমাধান:\nধরি, সম্পূর্ণ চৌবাচ্চাটি = ১ অংশ।\nপাইপ A, ৮ ঘণ্টায় পূর্ণ করে = ১ অংশ\nঅতএব, পাইপ A, ১ ঘণ্টায় পূর্ণ করে = (১)/(৮) অংশ\nপাইপ B, ৬ ঘণ্টায় পূর্ণ করে = ১ অংশ\nঅতএব, পাইপ B, ১ ঘণ্টায় পূর্ণ করে = (১)/(৬) অংশ\nপাইপ A ও B একত্রে ১ ঘণ্টায় পূর্ণ করে = ((১)/(৮) + (১)/(৬)) অংশ\n= (৩ + ৪)/(২৪) = (৭)/(২৪) অংশ\nউভয় পাইপ একসাথে ২ ঘণ্টা চালু থাকে।\nঅতএব, ২ ঘণ্টায় মোট পূর্ণ হয় = ২ \\times (৭)/(২৪) = (৭)/(১২) অংশ\nচৌবাচ্চাটির অবশিষ্ট খালি অংশ = (১ - (৭)/(১২)) = (৫)/(১২) অংশ\nপাইপ A বন্ধ করে দেওয়ায় অবশিষ্ট অংশ পাইপ B দ্বারা পূর্ণ হবে।\nপাইপ B, ১ (সম্পূর্ণ) অংশ পূর্ণ করে = ৬ ঘণ্টায়\nঅতএব, পাইপ B, (৫)/(১২) অংশ পূর্ণ করবে = ৬ \\times (৫)/(১২) = (৫)/(২) = ২(১)/(২) ঘণ্টায়।\n💡 শর্টকাট টেকনিক:\nঅবশিষ্ট কাজের সময় = [১ - t \\times ((১$)/(A)$ + (১$)/(B))$] \\times B\nএখানে, t = ২ ঘণ্টা, A = ৮ ঘণ্টা, B = ৬ ঘণ্টা।\nঅবশিষ্ট সময় = [১ - ২ \\times ((১)/(৮) + (১)/(৬))] \\times ৬\n= [১ - ২ \\times (৭)/(২৪)] \\times ৬\n= [১ - (৭)/(১২)] \\times ৬\n= (৫)/(১২) \\times ৬ = (৫)/(২) = ২(১)/(২) ঘণ্টা।",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "Combined Bank Officer (IT)-2019 | Combined Bank-2019",
+        "questionSource": "Combined Bank Officer (IT)-2019 | Combined Bank-2019 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "Combined Bank Officer (IT)-2019 | Combined Bank-2019",
+          "Combined Bank Officer (IT)-2019",
+          "Combined Bank-2019"
+        ]
+      },
+      {
+        "text": "Present ages of Samad and Akmal are in the ratio of 5:4 respectively . Three years later,the ratio of their ages will become 11:9 respectively . What is akmal's present age in years?",
+        "options": [
+          "$24$",
+          "$27$",
+          "$29$",
+          "$40$",
+          "$None$"
+        ],
+        "correctOptionIndex": 0,
+        "correctOptionIndices": [
+          0
+        ],
+        "isMultiSelect": false,
+        "explanation": "──── SOLUTION 1 ────\nNo explanations available.",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "IBBL PO-2017 | IBBL-2017",
+        "questionSource": "IBBL PO-2017 | IBBL-2017 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "IBBL PO-2017 | IBBL-2017",
+          "IBBL PO-2017",
+          "IBBL-2017"
+        ]
+      },
+      {
+        "text": "A tank has two leakages. The first leakage alone can empty the tank in 9 minutes and the second alone would have done it in 6 minutes. If water leaks out at a constant rate, how long does it take both the leaks together to empty the tank? (একটি ট্যাংকে দুটি লিকেজ আছে। প্রথম লিকেজটি একা ৯ মিনিটে এবং দ্বিতীয় লিকেজটি একা ৬ মিনিটে ট্যাংকটি খালি করতে পারে। যদি পানি ধ্রুব হারে লিক হয়, তবে দুটি লিকেজ একসাথে কতক্ষণে ট্যাংকটি খালি করবে?)",
+        "options": [
+          "$3.6 min$",
+          "$3.1 min$",
+          "$3.5 min$",
+          "$4.0 min$"
+        ],
+        "correctOptionIndex": 0,
+        "correctOptionIndices": [
+          0
+        ],
+        "isMultiSelect": false,
+        "explanation": "$──── SOLUTION 1 ──── Best Answer একত্রে খালি হতে সময় লাগবে = \\frac{a \\times b}{a + b} = \\frac{৯ \\times ৬}{৯ + ৬} = \\frac{৫৪}{১৫} = ৩.৬ মিনিট ──── SOLUTION 2 ──── দুটি বাদে সবগুলো rose দুটি বাদে সবগুলো tulip দুটি বাদে সবগুলো daisy স্পষ্ট বোঝা যাচ্ছে মোট ফুল তিনটি এবং প্রতি প্রকারের ফুল আছে ১টি করে।$",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "Sonali Officer-2019 | Sonali Bank-2019 | PKB Officer-2019 | PKB-2019",
+        "questionSource": "Sonali Officer-2019 | Sonali Bank-2019 | PKB Officer-2019 | PKB-2019 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "Sonali Officer-2019 | Sonali Bank-2019 | PKB Officer-2019 | PKB-2019",
+          "Sonali Officer-2019",
+          "Sonali Bank-2019",
+          "PKB Officer-2019",
+          "PKB-2019"
+        ]
+      },
+      {
+        "text": "One filling pipe P is three times faster than another filling pipe Q, If P can fill the tank in 24 hours, then what is the time taken to completely fill the tank if both pipes are opened together?",
+        "options": [
+          "$12 hours$",
+          "$16 hours$",
+          "$18 hours$",
+          "$14 hours$"
+        ],
+        "correctOptionIndex": 2,
+        "correctOptionIndices": [
+          2
+        ],
+        "isMultiSelect": false,
+        "explanation": "──── SOLUTION 1 ────\nNo explanations available.",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "Sonali Officer-2019 | Sonali Bank-2019",
+        "questionSource": "Sonali Officer-2019 | Sonali Bank-2019 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "Sonali Officer-2019 | Sonali Bank-2019",
+          "Sonali Officer-2019",
+          "Sonali Bank-2019"
+        ]
+      },
+      {
+        "text": "A tank can be filled with water by two pipes A and B together in 36 minutes. Pipe A alone can fill the tank in 90 minutes. The pipe B can alone fill the tank in—",
+        "options": [
+          "$45 minutes$",
+          "$60 minutes$",
+          "$75 minutes$",
+          "$90 minutes$"
+        ],
+        "correctOptionIndex": 1,
+        "correctOptionIndices": [
+          1
+        ],
+        "isMultiSelect": false,
+        "explanation": "$──── SOLUTION 1 ──── বিস্তারিত সমাধান: ধরি, সম্পূর্ণ চৌবাচ্চাটি = ১ (এক) অংশ। পাইপ A ও B একত্রে ৩৬ মিনিটে পূর্ণ করে চৌবাচ্চাটির ১ অংশ। অতএব, পাইপ A ও B একত্রে ১ মিনিটে পূর্ণ করে \\frac{1}{36} অংশ। আবার, পাইপ A একা ৯০ মিনিটে পূর্ণ করে চৌবাচ্চাটির ১ অংশ। অতএব, পাইপ A একা ১ মিনিটে পূর্ণ করে \\frac{1}{90} অংশ। সুতরাং, পাইপ B একা ১ মিনিটে পূর্ণ করে: = \\frac{(1}{36} - \\frac{1}{90}) অংশ = \\frac{5 - 2}{180} অংশ = \\frac{3}{180} অংশ = \\frac{1}{60} অংশ অতএব, পাইপ B একা \\frac{1}{60} অংশ পূর্ণ করে ১ মিনিটে। সুতরাং, পাইপ B একা সম্পূর্ণ (১) অংশ পূর্ণ করবে ১ \\div \\frac{1}{60} = ৬০ মিনিটে। 💡 শর্টকাট টেকনিক: দুইটি পাইপের একত্রে কাজ করার সময় এবং যেকোনো একটির একা কাজ করার সময় দেওয়া থাকলে, অপর পাইপের একা পূর্ণ করার সময় নির্ণয়ের সূত্র: সময় = \\frac{একত্রে সময় \\times একক সময়}{একক সময় - একত্রে সময়} মান বসিয়ে পাই, সময় = \\frac{৩৬ \\times ৯০}{৯০ - ৩৬} মিনিট = \\frac{৩২৪০}{৫৪} মিনিট = ৬০ মিনিট।$",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "Combined Bank Officer-2019 | Combined Bank-2019",
+        "questionSource": "Combined Bank Officer-2019 | Combined Bank-2019 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "Combined Bank Officer-2019 | Combined Bank-2019",
+          "Combined Bank Officer-2019",
+          "Combined Bank-2019"
+        ]
+      },
+      {
+        "text": "Pipe P can fill an empty tank in 4 hours but pipe Q can completely empty the same tank in 8 hours. But the pipes were opened alternately after every two hours starting with pipe P then in how many hours, the tank was completely filled?",
+        "options": [
+          "$6 hours$",
+          "$5 hours$",
+          "$10 hours$",
+          "$12 hours$"
+        ],
+        "correctOptionIndex": 2,
+        "correctOptionIndices": [
+          2
+        ],
+        "isMultiSelect": false,
+        "explanation": "$──── SOLUTION 1 ──── Let, Capacity of tank be 8 liter (LCM of 4,8) In 1 hour P fill = (\\frac{8}{4}) = 21 Q empty = (\\frac{8}{8}) = 1L In last 2 hour only p works and fill = 2x 2 = 4L Remains = 8 - 4 = 4 L Now, in 4 hour net filling of P and Q = (2x 2) - (1 x2) = 2L 2L net fill in 4 hr 4L net fill in = \\frac{4\\times4}{2} = 8 hr Total time = 8 + 2 = 10 hr (Ans)$",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "Combined Bank Officer (General)-2019 | Combined Bank-2019",
+        "questionSource": "Combined Bank Officer (General)-2019 | Combined Bank-2019 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "Combined Bank Officer (General)-2019 | Combined Bank-2019",
+          "Combined Bank Officer (General)-2019",
+          "Combined Bank-2019"
+        ]
+      },
+      {
+        "text": "দুইটি নল দিয়ে একটি চৌবচ্চা ৮ মিনিটে পূর্ণ হয়। নল দুইটি খুলে দেয়ার ৬ মিনিট লাগলে দ্বিতীয় নলটি দিয়ে চৌবাচ্চাটি একক ভাবে পূর্ণ করতে কত মিনিট লাগবে?",
+        "options": [
+          "১২",
+          "১৬",
+          "২০",
+          "২৪"
+        ],
+        "correctOptionIndex": 3,
+        "correctOptionIndices": [
+          3
+        ],
+        "isMultiSelect": false,
+        "explanation": "──── SOLUTION 1 ────\n২ টি নল দ্বারা ১ মিনিটে পূর্ণ হয় = ১/৮ অংশ\n২ টি নল দ্বারা ৬ মিনিটে পূর্ণ হয় = ৬/৮ = ৩/৪ অংশ\n৬ মিনিট পর অবশিষ্ট = ১ - ৩/৪ = ১/৪ অংশ\nদ্বিতীয় নল ১/৪ অংশ পূরণ করে = ৬ মিনিটে।\nদ্বিতীয় নল ১ অংশ পূরণ করে = ৪ \\times ৬ = ২৪ মিনিটে",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "CGDF – Auditor-2019 | PSC-2019",
+        "questionSource": "CGDF – Auditor-2019 | PSC-2019 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "CGDF – Auditor-2019 | PSC-2019",
+          "CGDF – Auditor-2019",
+          "PSC-2019"
+        ]
+      },
+      {
+        "text": "A pipes fills a tank in P minutes and another pipe fills the tank in Q minutes. A different pipe makes the tank empty in R minutes. If all these three pipe are opened then in how many minutes the tank will be full?",
+        "options": [
+          "$\\frac{p + q − q}{pqr}$",
+          "$\\frac{pq + pr − pq}{pqr}$",
+          "$\\frac{pq + qr − pr}{pqr}$",
+          "$\\frac{pqr}{qr + pr − pq}$",
+          "$None$"
+        ],
+        "correctOptionIndex": 3,
+        "correctOptionIndices": [
+          3
+        ],
+        "isMultiSelect": false,
+        "explanation": "No worked solution text was provided on the source page",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "BBA – Assistant Sub-Engineer-2020 | PSC-2020",
+        "questionSource": "BBA – Assistant Sub-Engineer-2020 | PSC-2020 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "BBA – Assistant Sub-Engineer-2020 | PSC-2020",
+          "BBA – Assistant Sub-Engineer-2020",
+          "PSC-2020"
+        ]
+      },
+      {
+        "text": "পাইপ A এবং B একযোগে ১২ ঘণ্টায় একটি ট্যাঙ্ক পূরণ করতে পারে। A পাইপ B পাইপের ১০ ঘণ্টা পূর্বে ট্যাঙ্কটি পূরণ করতে পারে। B পাইপ দ্বরা ট্যাঙ্কটি পূরণ করতে কত সময় লাগবে?",
+        "options": [
+          "২০ ঘণ্টা",
+          "২৫ ঘণ্টা",
+          "৩০ ঘণ্টা",
+          "৩৫ ঘণ্টা"
+        ],
+        "correctOptionIndex": 2,
+        "correctOptionIndices": [
+          2
+        ],
+        "isMultiSelect": false,
+        "explanation": "$──── SOLUTION 1 ──── বিস্তারিত সমাধান: ধরি, পাইপ B দ্বারা ট্যাঙ্কটি পূরণ করতে t ঘণ্টা সময় লাগে। প্রশ্নানুসারে, পাইপ A দ্বারা ট্যাঙ্কটি পূরণ করতে t - 10 ঘণ্টা সময় লাগে। একক সময়ে পাইপ A ট্যাঙ্কটির \\frac{1}{t - 10} অংশ পূরণ করতে পারে। একক সময়ে পাইপ B ট্যাঙ্কটির \\frac{1}{t} অংশ পূরণ করতে পারে। একযোগে পাইপ A এবং B দ্বারা ট্যাঙ্কটি পূরণ করতে ১২ ঘণ্টা লাগে। সুতরাং, তাদের সম্মিলিত একক সময়ের কাজ হবে \\frac{1}{12} অংশ। আমরা লিখতে পারি: \\frac{1}{t - 10} + \\frac{1}{t} = \\frac{1}{12} বাম দিকের ভগ্নাংশ যোগ করি: (t + (t - 10))/(t(t - 10)) = \\frac{1}{12} \\frac{2t - 10}{t^2 - 10t} = \\frac{1}{12} আড়াআড়ি গুণ করে পাই: 12(2t - 10) = t^2 - 10t 24t - 120 = t^2 - 10t সমীকরণটিকে আদর্শ দ্বিঘাত সমীকরণের আকারে সাজাই: t^2 - 10t - 24t + 120 = 0 t^2 - 34t + 120 = 0 এখন এই দ্বিঘাত সমীকরণটি সমাধান করি। আমরা মধ্যপদ বিশ্লেষণ পদ্ধতি ব্যবহার করতে পারি। দুটি সংখ্যা খুঁজে বের করতে হবে যাদের গুণফল 120 এবং যোগফল -34। সংখ্যা দুটি হলো -30 এবং -4। t^2 - 30t - 4t + 120 = 0 t(t - 30) - 4(t - 30) = 0 (t - 30)(t - 4) = 0 সুতরাং, t - 30 = 0 অথবা t - 4 = 0। এখান থেকে আমরা পাই, t = 30 অথবা t = 4। যদি t = 4 হয়, তাহলে পাইপ A এর সময় হবে t - 10 = 4 - 10 = -6 ঘণ্টা। সময় ঋণাত্মক হতে পারে না, তাই t = 4 গ্রহণযোগ্য নয়। যদি t = 30 হয়, তাহলে পাইপ A এর সময় হবে t - 10 = 30 - 10 = 20 ঘণ্টা। উভয় সময়ই ধনাত্মক, যা গ্রহণযোগ্য। সুতরাং, পাইপ B দ্বারা ট্যাঙ্কটি পূরণ করতে 30 ঘণ্টা সময় লাগবে। 💡 শর্টকাট টেকনিক: এই ধরনের সমস্যায় অপশন টেস্ট একটি কার্যকর পদ্ধতি হতে পারে। আমরা প্রদত্ত অপশনগুলো থেকে B পাইপের সময় ধরে A এর সময় বের করে তাদের সম্মিলিত সময় ১২ ঘণ্টা হয় কিনা তা পরীক্ষা করতে পারি। যদি B পাইপ দ্বারা ট্যাঙ্কটি পূরণ করতে ২০ ঘণ্টা লাগে (অপশন ১), তবে A এর লাগবে 20 - 10 = 10 ঘণ্টা। একসাথে তারা নেবে: \\frac{1}{(1}/(10) + \\frac{1}{20}) = \\frac{1}{(2+1}/(20)) = \\frac{1}{(3}/(20)) = \\frac{20}{3} \\approx 6.67 ঘণ্টা। এটি ১২ ঘণ্টা নয়। যদি B পাইপ দ্বারা ট্যাঙ্কটি পূরণ করতে ২৫ ঘণ্টা লাগে (অপশন ২), তবে A এর লাগবে 25 - 10 = 15 ঘণ্টা। একসাথে তারা নেবে: \\frac{1}{(1}/(15) + \\frac{1}{25}) = \\frac{1}{(5+3}/(75)) = \\frac{1}{(8}/(75)) = \\frac{75}{8} = 9.375 ঘণ্টা। এটি ১২ ঘণ্টা নয়। যদি B পাইপ দ্বারা ট্যাঙ্কটি পূরণ করতে ৩০ ঘণ্টা লাগে (অপশন ৩), তবে A এর লাগবে 30 - 10 = 20 ঘণ্টা। একসাথে তারা নেবে: \\frac{1}{(1}/(20) + \\frac{1}{30}) = \\frac{1}{(3+2}/(60)) = \\frac{1}{(5}/(60)) = \\frac{1}{(1}/(12)) = 12 ঘণ্টা। এটি প্রশ্নের শর্ত পূরণ করে। সুতরাং, সঠিক উত্তর হলো 30 ঘণ্টা।$",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "NSI – Field Officer-2021 | PSC-2021",
+        "questionSource": "NSI – Field Officer-2021 | PSC-2021 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "NSI – Field Officer-2021 | PSC-2021",
+          "NSI – Field Officer-2021",
+          "PSC-2021"
+        ]
+      },
+      {
+        "text": "একটি নল দ্বারা ১২ মিনিটে একটি চৌবাচ্চা পূর্ণ হয়। অপর একটি নল দ্বারা ১ মিনিটে তা থেকে ১৫ লি. পানি বের হয়। চৌবাচ্চাটি খালি অবস্থায় ২ টি নল একসঙ্গে খুলে দিলে ৪৮ মিনিটে পূর্ণ হয়। চৌবাচ্চাটিতে কত লিটার পানি ধরে?",
+        "options": [
+          "২২০",
+          "২৪০",
+          "২২৫",
+          "২৭২"
+        ],
+        "correctOptionIndex": 1,
+        "correctOptionIndices": [
+          1
+        ],
+        "isMultiSelect": false,
+        "explanation": "No worked solution text was provided on the source page",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "CAAB – Senior Officer-2021 | PSC-2021",
+        "questionSource": "CAAB – Senior Officer-2021 | PSC-2021 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "CAAB – Senior Officer-2021 | PSC-2021",
+          "CAAB – Senior Officer-2021",
+          "PSC-2021"
+        ]
+      },
+      {
+        "text": "It takes 5 hours to fill a container using machine A. The same container can be filled using machine B in 10 hours. When the container is full, Machine C can fully empty the container in 20 hours. If all three machines start working on the same empty container how long will it take for the container to be completely filled,",
+        "options": [
+          "$\\frac{1}{2} hour$",
+          "$4 hour$",
+          "$2 hour$",
+          "$15 hour$"
+        ],
+        "correctOptionIndex": 1,
+        "correctOptionIndices": [
+          1
+        ],
+        "isMultiSelect": false,
+        "explanation": "No worked solution text was provided on the source page",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "NSI – AD, Research Officer & Assistant Programmer-2021 | PSC-2021",
+        "questionSource": "NSI – AD, Research Officer & Assistant Programmer-2021 | PSC-2021 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "NSI – AD, Research Officer & Assistant Programmer-2021 | PSC-2021",
+          "PSC-2021"
+        ]
+      },
+      {
+        "text": "A tap can fill a tank in 6 hours . After half the tank is filled another similar tap is opened. What is the total time taken to fill the tank completely?",
+        "options": [
+          "$3 h 30 m$",
+          "$3 h 45 m$",
+          "$4 h30 m$",
+          "$4 h$"
+        ],
+        "correctOptionIndex": 2,
+        "correctOptionIndices": [
+          2
+        ],
+        "isMultiSelect": false,
+        "explanation": "$──── SOLUTION 1 ──── Let's calculate the rate at which the first tap can fill the tank in 1 hour:First tap's rate = 1 \\frac{tank}{6} hours = \\frac{1}{6} tanks per hourNow, when half of the tank is filled, it means that \\frac{1}{2} of the tank is filled. So, we have \\frac{1}{2} of the tank remaining to be filled.Now, both the first tap and the second tap are open, and they are filling the tank simultaneously. The combined rate at which they can fill the tank is the sum of their individual rates.Combined rate = (Rate of first tap) + (Rate of second tap)Since both taps are identical, we can add the rates:Combined rate = (\\frac{1}{6} + \\frac{1}{6}) tanks per hour = \\frac{2}{6} tanks per hour = \\frac{1}{3} tanks per hourNow, we need to find out how long it will take to fill the remaining \\frac{1}{2} of the tank at this combined rate:Time = \\frac{Amount remaining to be filled}{Combined rate}Time = \\frac{\\frac{1}{2} tank}{\\frac{1}{3} tanks per hour}Time = \\frac{\\frac{1}{2}}{\\frac{1}{3}} hoursTime = (\\frac{1}{2}) \\cdot (\\frac{3}{1}) hoursTime = \\frac{3}{2} hoursNow, convert \\frac{3}{2} hours into hours and minutes:\\frac{3}{2} hours = 1 hour and 30 minutesSo, it will take 1 hour and 30 minutes to fill the remaining half of the tank when both taps are open.Now, let's add this time to the initial 3 hours (time to fill the first half of the tank):Total time = 3 hours (first half) + 1 hour 30 minutes (remaining half)Total time = 3 hours + 1 hour 30 minutesTotal time = 4 hours and 30 minutesSo, the total time taken to fill the tank completely is 4 hours and 30 minutes.$",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "Combined Bank Officer-2021 | Combined Bank-2021",
+        "questionSource": "Combined Bank Officer-2021 | Combined Bank-2021 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "Combined Bank Officer-2021 | Combined Bank-2021",
+          "Combined Bank Officer-2021",
+          "Combined Bank-2021"
+        ]
+      },
+      {
+        "text": "একটি নল খালি চৌবাচ্চাকে ১৮ মিনিটে পূরণ করে ও অপর একটি নল ১২ মিনিটে খালি করে। অর্ধ পানিপূর্ণ অবস্থায় নল দুটি একসাথে খুলেফেললে কত সময়ে চৌবাচ্চাটি খালি হবে?",
+        "options": [
+          "৪৮ মিনিট",
+          "৩৬ মিনিট",
+          "২৪ মিনিট",
+          "১৮ মিনিট"
+        ],
+        "correctOptionIndex": 3,
+        "correctOptionIndices": [
+          3
+        ],
+        "isMultiSelect": false,
+        "explanation": "No worked solution text was provided on the source page",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "Pre-Primary Teacher-2013 | Primary Teacher-2013",
+        "questionSource": "Pre-Primary Teacher-2013 | Primary Teacher-2013 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "Pre-Primary Teacher-2013 | Primary Teacher-2013",
+          "Pre-Primary Teacher-2013",
+          "Primary Teacher-2013"
+        ]
+      },
+      {
+        "text": "A reservoir has two pipes, A and B. A can fill the reservoir 5 hours faster than B. If both together fill the reservoir in 6 hours, the reservoir will be filled by A alone in-",
+        "options": [
+          "$8 hours$",
+          "$10 hours$",
+          "$11 hours$",
+          "$12 hours$"
+        ],
+        "correctOptionIndex": 1,
+        "correctOptionIndices": [
+          1
+        ],
+        "isMultiSelect": false,
+        "explanation": "No worked solution text was provided on the source page",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "Janata Officer-2023 | JB PLC-2023",
+        "questionSource": "Janata Officer-2023 | JB PLC-2023 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "Janata Officer-2023 | JB PLC-2023",
+          "Janata Officer-2023",
+          "JB PLC-2023"
+        ]
+      },
+      {
+        "text": "একটি চৌবাচ্চায় ৮০০০ লিটার পানি ধরে, চৌবাচ্চাটির দৈর্ঘ্য ২.৫৬ মিটার এবং প্রন্থ ১.২৫ মিটার হলে গভীরতা কত মিটার?",
+        "options": [
+          "১.৫",
+          "২.৫",
+          "৩",
+          "৩.৫"
+        ],
+        "correctOptionIndex": 1,
+        "correctOptionIndices": [
+          1
+        ],
+        "isMultiSelect": false,
+        "explanation": "No worked solution text was provided on the source page",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "PLI East Zone – PLI Accountant-2023 | PSC-2023",
+        "questionSource": "PLI East Zone – PLI Accountant-2023 | PSC-2023 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "PLI East Zone – PLI Accountant-2023 | PSC-2023",
+          "PLI East Zone – PLI Accountant-2023",
+          "PSC-2023"
+        ]
+      },
+      {
+        "text": "বৃত্তের ব্যাসার্ধ দ্বিগুণ করলে ক্ষেত্রফল কতগুণ বৃদ্ধি পাবে?",
+        "options": [
+          "২ গুণ",
+          "৩ গুণ",
+          "৪ গুণ",
+          "৫ গুণ"
+        ],
+        "correctOptionIndex": 2,
+        "correctOptionIndices": [
+          2
+        ],
+        "isMultiSelect": false,
+        "explanation": "──── SOLUTION 1 ────\nBest Answer আমরা জানি বৃত্তের ব্যাসার্ধ =\\pir^2যেখানে r= বৃত্তের ব্যাসার্ধ এবং \\pi হলো ধ্রুবক।সুতরাং কোন বৃত্তের ব্যাসার্ধ একগুণ হলে ক্ষেত্রফল দ্বিগুণ হবে এবং দ্বিগুণ হলে ৪গুন হারে বৃদ্ধি পাবে।\n──── SOLUTION 2 ────\nএকটি বৃত্তের ব্যাসার্ধ দ্বিগুণ হলে ক্ষেত্রফল বৃদ্ধি হয় 4 গুণ.",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "PGCB – Technical/Office Assistant-2024 | PSC-2024",
+        "questionSource": "PGCB – Technical/Office Assistant-2024 | PSC-2024 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "PGCB – Technical/Office Assistant-2024 | PSC-2024",
+          "PGCB – Technical/Office Assistant-2024",
+          "PSC-2024"
+        ]
+      },
+      {
+        "text": "পাইপ A একটি ট্যাঙ্ক ২০ মিনিটে ভর্তি করতে পারে, পাইপ B ৩০ মিনিটে ভর্তি করতে পারে এবং পাইপ C সেই ট্যাঙ্কটি ৪০ মিনিটে খালি করতে পারে। যদি এই তিনটি পাইপ একসাথে চালু করা হয়, তাহলে ট্যাঙ্কটি ভর্তি হতে কত সময় লাগবে?",
+        "options": [
+          "১৭.১৪ মিনিট",
+          "২০ মিনিট",
+          "৮ মিনিট",
+          "কোনটিই নয়"
+        ],
+        "correctOptionIndex": 0,
+        "correctOptionIndices": [
+          0
+        ],
+        "isMultiSelect": false,
+        "explanation": "$──── SOLUTION 1 ──── Best Answer ১ মিনিটে ভর্তি হয় = \\frac{(১}{২০} + \\frac{১}{৩০} - \\frac{১}{৪০}) অংশ = \\frac{৬ + ৪ - ৩}{১২০} = \\frac{৭}{১২০} অংশ ট্যাঙ্কটি ভর্তি হতে সময় লাগবে = \\frac{১২০}{৭} মিনিট = ১৭.১৪ মিনিট (প্রায়) ──── SOLUTION 2 ──── এই ধরনের সমস্যা সমাধানের জন্য, প্রথমে প্রতিটি পাইপের একক সময়ে (যেমন, ১ মিনিটে) ট্যাঙ্কের কত অংশ ভর্তি বা খালি করতে পারে তা বের করতে হবে। ১. পাইপ A, ২০ মিনিটে ট্যাঙ্কটি ভর্তি করে। সুতরাং, পাইপ A, ১ মিনিটে ট্যাঙ্কটির \\frac{1}{20} অংশ ভর্তি করে। ২. পাইপ B, ৩০ মিনিটে ট্যাঙ্কটি ভর্তি করে। সুতরাং, পাইপ B, ১ মিনিটে ট্যাঙ্কটির \\frac{1}{30} অংশ ভর্তি করে। ৩. পাইপ C, ৪০ মিনিটে ট্যাঙ্কটি খালি করে। সুতরাং, পাইপ C, ১ মিনিটে ট্যাঙ্কটির \\frac{1}{40} অংশ খালি করে। যখন তিনটি পাইপ একসাথে চালু করা হয়, তখন ১ মিনিটে ট্যাঙ্কের মোট কত অংশ ভর্তি হবে তা বের করতে হবে। যেহেতু পাইপ C খালি করে, এর কাজ বিয়োগ হবে। একসাথে ১ মিনিটে মোট ভর্তি হওয়া অংশ = (পাইপ A এর ১ মিনিটের কাজ) + (পাইপ B এর ১ মিনিটের কাজ) - (পাইপ C এর ১ মিনিটের কাজ) = \\frac{1}{20} + \\frac{1}{30} - \\frac{1}{40} এখন, ২০, ৩০ এবং ৪০ এর ল.সা.গু (LCM) বের করতে হবে। ২০ = 2^2 \\times 5৩০ = 2 \\times 3 \\times 5৪০ = 2^3 \\times 5 ল.সা.গু = 2^3 \\times 3 \\times 5 = 8 \\times 3 \\times 5 = 120 সুতরাং, ভগ্নাংশগুলোর যোগফল হবে: = \\frac{6}{120} + \\frac{4}{120} - \\frac{3}{120} = \\frac{6 + 4 - 3}{120} = \\frac{10 - 3}{120} = \\frac{7}{120} অংশ এর মানে হল, তিনটি পাইপ একসাথে চালু থাকলে, ১ মিনিটে ট্যাঙ্কের \\frac{7}{120} অংশ ভর্তি হয়। সম্পূর্ণ ট্যাঙ্কটি (১ অংশ) ভর্তি হতে সময় লাগবে = \\frac{1}{(7}/(120)) মিনিট = \\frac{120}{7} মিনিট এখন, \\frac{120}{7} কে দশমিকে প্রকাশ করলে: \\frac{120}{7} \\approx 17.1428... মিনিট প্রায় ১৭.১৪ মিনিট।$",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "RPCL – SAE (Electrical)-2025 | BUET-2025 | RPCL – SAE (Mechanical)-2025",
+        "questionSource": "RPCL – SAE (Electrical)-2025 | BUET-2025 | RPCL – SAE (Mechanical)-2025 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "RPCL – SAE (Electrical)-2025 | BUET-2025 | RPCL – SAE (Mechanical)-2025",
+          "RPCL – SAE (Electrical)-2025",
+          "BUET-2025",
+          "RPCL – SAE (Mechanical)-2025"
+        ]
+      },
+      {
+        "text": "A rectangular tank with dimensions 80 cm X 60 cm X 15 cm can be filled with tap A at the rate of 680 cm every 2 minutes and can be emptied with tap 1 at the rate of 140 cm every minute. It Jamal leaves both taps open at 2:30 pm, when will the tank be filled to 1 /3'' prime its capacity?",
+        "options": [
+          "$3.45 pm$",
+          "$4.15pm$",
+          "$4.30 pm$",
+          "$5.15 pm$",
+          "$5.30 pm$"
+        ],
+        "correctOptionIndex": 2,
+        "correctOptionIndices": [
+          2
+        ],
+        "isMultiSelect": false,
+        "explanation": "$──── SOLUTION 1 ──── প্রথমে ট্যাঙ্কের মোট আয়তন (Volume) নির্ণয় করতে হবে: ট্যাঙ্কের দৈর্ঘ্য (Length) = 80 সেমি ট্যাঙ্কের প্রস্থ (Width) = 60 সেমি ট্যাঙ্কের উচ্চতা (Height) = 15 সেমি ট্যাঙ্কের আয়তন = দৈর্ঘ্য \\times প্রস্থ \\times উচ্চতা = 80 \\times 60 \\times 15 ঘন সেমি = 4800 \\times 15 ঘন সেমি = 72000 ঘন সেমি প্রশ্ন অনুযায়ী, ট্যাঙ্কের \\frac{1}{3} অংশ পূর্ণ করতে হবে, তাই প্রয়োজনীয় আয়তন: = \\frac{1}{3} \\times 72000 ঘন সেমি = 24000 ঘন সেমি এবার ট্যাপ A এর ভর্তি করার হার এবং ট্যাপ 1 এর খালি করার হার বের করতে হবে: ট্যাপ A দ্বারা 2 মিনিটে ভর্তি হয় = 680 ঘন সেমি ট্যাপ A দ্বারা 1 মিনিটে ভর্তি হয় = \\frac{680}{2} = 340 ঘন সেমি (এটি ভর্তি করার হার) ট্যাপ 1 দ্বারা 1 মিনিটে খালি হয় = 140 ঘন সেমি (এটি খালি করার হার) যখন উভয় ট্যাপ (A এবং 1) খোলা থাকে, তখন ট্যাঙ্কের নিট (Net) ভর্তি হওয়ার হার হবে: = (ট্যাপ A এর ভর্তি হার) - (ট্যাপ 1 এর খালি হার) = 340 - 140 ঘন সেমি/মিনিট = 200 ঘন সেমি/মিনিট এখন, 24000 ঘন সেমি আয়তন ভর্তি করতে প্রয়োজনীয় সময় নির্ণয় করতে হবে: প্রয়োজনীয় সময় = \\frac{মোট প্রয়োজনীয় আয়তন}{নিট ভর্তি হার} = \\frac{24000}{200} মিনিট = 120 মিনিট আমরা জানি, 60 মিনিট = 1 ঘন্টা সুতরাং, 120 মিনিট = \\frac{120}{60} = 2 ঘন্টা ট্যাপ দুটি খোলা হয় দুপুর 2:30 pm এ। ট্যাঙ্কের \\frac{1}{3} অংশ পূর্ণ হতে সময় লাগবে 2 ঘন্টা। সুতরাং, ট্যাঙ্কটি পূর্ণ হবে = 2:30 pm + 2 ঘন্টা = 4:30 pm এ।$",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "NSI – AD-2025 | PSC-2025",
+        "questionSource": "NSI – AD-2025 | PSC-2025 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "NSI – AD-2025 | PSC-2025",
+          "NSI – AD-2025",
+          "PSC-2025"
+        ]
+      },
+      {
+        "text": "একটি চৌবাচ্চা ক নল দ্বারা ২৪ মিনিটে এবং খ নল দ্বারা ৩২ মিনিটে পূর্ণ হয়। দুটি নাল একত্রে চালু করার কতক্ষণ পর খ নল বন্ধ করতে হবে যাতে পুরে চৌবাচ্চাটি ১৮ মিনিটে পূর্ণ হয়?",
+        "options": [
+          "২",
+          "৪",
+          "৬",
+          "৮",
+          "১২"
+        ],
+        "correctOptionIndex": 3,
+        "correctOptionIndices": [
+          3
+        ],
+        "isMultiSelect": false,
+        "explanation": "$──── SOLUTION 1 ──── বিস্তারিত সমাধান: প্রথমে প্রতিটি নলের একক সময়ে চৌবাচ্চা পূর্ণ করার হার নির্ণয় করি। ক নল ২৪ মিনিটে একটি চৌবাচ্চা পূর্ণ করে। সুতরাং, ক নলের ১ মিনিটে পূর্ণ করার হার = \\frac{1}{24} অংশ। খ নল ৩২ মিনিটে একটি চৌবাচ্চা পূর্ণ করে। সুতরাং, খ নলের ১ মিনিটে পূর্ণ করার হার = \\frac{1}{32} অংশ। প্রশ্নানুসারে, দুটি নল একত্রে চালু করার কিছু সময় পর খ নল বন্ধ করে দেওয়া হয় এবং সম্পূর্ণ চৌবাচ্চাটি ১৮ মিনিটে পূর্ণ হয়। যেহেতু ক নলটি প্রথম থেকে শেষ পর্যন্ত চালু ছিল, সেহেতু ক নলটি মোট ১৮ মিনিট কাজ করেছে। ১৮ মিনিটে ক নল দ্বারা পূর্ণ হওয়া চৌবাচ্চার পরিমাণ = 18 \\times \\frac{1}{24} অংশ = \\frac{18}{24} অংশ = \\frac{3}{4} অংশ। এখন, চৌবাচ্চার বাকি অংশ যা খ নল দ্বারা পূর্ণ হয়েছে, তা হলো: = 1 - \\frac{3}{4} অংশ = \\frac{4-3}{4} অংশ = \\frac{1}{4} অংশ। ধরি, খ নলটি t মিনিট চালু ছিল। খ নলের ১ মিনিটে পূর্ণ করার হার \\frac{1}{32} অংশ। সুতরাং, t মিনিটে খ নল দ্বারা পূর্ণ হওয়া চৌবাচ্চার পরিমাণ = t \\times \\frac{1}{32} অংশ। আমরা জানি, এই t মিনিটে খ নল \\frac{1}{4} অংশ চৌবাচ্চা পূর্ণ করেছে। অতএব, t \\times \\frac{1}{32} = \\frac{1}{4} \\frac{t}{32} = \\frac{1}{4} t = \\frac{32}{4} t = 8 সুতরাং, খ নলটি ৮ মিনিট চালু থাকার পর বন্ধ করা হয়েছিল। অতএব, খ নল ৮ মিনিট পর বন্ধ করতে হবে। 💡 শর্টকাট টেকনিক: এই ধরনের সমস্যা সমাধানের জন্য একটি সহজ সূত্র ব্যবহার করা যেতে পারে: যদি A একটি কাজ T_A সময়ে করতে পারে এবং B একটি কাজ T_B সময়ে করতে পারে, এবং কাজটি মোট T সময়ে শেষ হয় যখন B নল x মিনিট পর বন্ধ করা হয়, তাহলে: \\frac{T}{T_A} + \\frac{x}{T_B} = 1 এখানে, T_A = 24 মিনিট (ক নলের সময়), T_B = 32 মিনিট (খ নলের সময়), T = 18 মিনিট (মোট সময়)। \\frac{18}{24} + \\frac{x}{32} = 1 \\frac{3}{4} + \\frac{x}{32} = 1 \\frac{x}{32} = 1 - \\frac{3}{4} \\frac{x}{32} = \\frac{4-3}{4} \\frac{x}{32} = \\frac{1}{4} x = \\frac{32}{4} x = 8 সুতরাং, খ নল ৮ মিনিট পর বন্ধ করতে হবে।$",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "BCIC – AAO / AACO / ACO-2025 | PSC-2025",
+        "questionSource": "BCIC – AAO / AACO / ACO-2025 | PSC-2025 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "BCIC – AAO / AACO / ACO-2025 | PSC-2025",
+          "BCIC – AAO / AACO / ACO-2025",
+          "PSC-2025"
+        ]
+      },
+      {
+        "text": "Pipe A can fill a tank in 'a' hours. On account of a leak at the bottom of the tank it takes thrice as long to fill the tank. How long will the leaks at the bottom of the tank take to empty a full tank, when pipe A is kept closed?",
+        "options": [
+          "$(\\frac{3}{2})a hours0% 0 votes$",
+          "$(\\frac{2}{3})a0% 0 votes$",
+          "$(\\frac{4}{3})a0% 0 votes$",
+          "$(\\frac{3}{4})a0% 0 votes$"
+        ],
+        "correctOptionIndex": 0,
+        "correctOptionIndices": [
+          0
+        ],
+        "isMultiSelect": false,
+        "explanation": "──── SOLUTION 1 ────\nNo explanations available.",
+        "subject": "গণিত",
+        "topic": "0 votes",
+        "exam": "IBBL Officer-2010 | IBBL-2010",
+        "questionSource": "IBBL Officer-2010 | IBBL-2010 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern) | 0 votes | 0 votes | 0 votes | 0 votes",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "0 votes",
+          "IBBL Officer-2010 | IBBL-2010",
+          "IBBL Officer-2010",
+          "IBBL-2010",
+          "নল ও চৌবাচ্চা (Pipes and cistern)"
+        ]
+      },
+      {
+        "text": "Two pipes fill a tank in 20 and 30 minutes; a drain empties it in 15 minutes. If the tank is half full, and the pipes and the drain are opened together, how long will it take to fill the tank?",
+        "options": [
+          "$20 minutes$",
+          "$24 minutes$",
+          "$30 minutes$",
+          "$36 minutes$"
+        ],
+        "correctOptionIndex": 2,
+        "correctOptionIndices": [
+          2
+        ],
+        "isMultiSelect": false,
+        "explanation": "$──── SOLUTION 1 ──── বিস্তারিত সমাধান: প্রথম পাইপটি একটি ট্যাঙ্ক পূরণ করে ২০ মিনিটে। সুতরাং, প্রথম পাইপটি ১ মিনিটে ট্যাঙ্কটির \\frac{1}{20} অংশ পূরণ করে। দ্বিতীয় পাইপটি একটি ট্যাঙ্ক পূরণ করে ৩০ মিনিটে। সুতরাং, দ্বিতীয় পাইপটি ১ মিনিটে ট্যাঙ্কটির \\frac{1}{30} অংশ পূরণ করে। ড্রেনটি একটি পূর্ণ ট্যাঙ্ক খালি করে ১৫ মিনিটে। সুতরাং, ড্রেনটি ১ মিনিটে ট্যাঙ্কটির \\frac{1}{15} অংশ খালি করে। যখন দুটি পাইপ এবং ড্রেনটি একসাথে খোলা হয়, তখন ১ মিনিটে ট্যাঙ্কটির নেট পূরণ বা খালি হওয়ার পরিমাণ হবে: = \\frac{(1}{20} + \\frac{1}{30} - \\frac{1}{15}) অংশ = \\frac{(3 + 2 - 4}{60}) অংশ (এখানে ২০, ৩০ এবং ১৫ এর ল.সা.গু. হলো ৬০) = \\frac{1}{60} অংশ অর্থাৎ, যখন সব একসাথে খোলা হয়, তখন প্রতি মিনিটে ট্যাঙ্কটির \\frac{1}{60} অংশ পূরণ হয়। ট্যাঙ্কটি অর্ধেক পূর্ণ আছে। সুতরাং, বাকি \\frac{1 - (1}{2}) = \\frac{1}{2} অংশ পূরণ করতে হবে। \\frac{1}{60} অংশ পূরণ করতে সময় লাগে ১ মিনিট। সুতরাং, সম্পূর্ণ ১ অংশ পূরণ করতে সময় লাগবে ৬০ মিনিট। সুতরাং, বাকি \\frac{1}{2} অংশ পূরণ করতে সময় লাগবে \\frac{1}{2} \\times 60 মিনিট = ৩০ মিনিট। 💡 শর্টকাট টেকনিক: ধরি, ট্যাঙ্কটির মোট ধারণক্ষমতা হলো ২০, ৩০ এবং ১৫ এর ল.সা.গু. = ৬০ ইউনিট। প্রথম পাইপ প্রতি মিনিটে পূরণ করে: \\frac{60}{20} = 3 ইউনিট। দ্বিতীয় পাইপ প্রতি মিনিটে পূরণ করে: \\frac{60}{30} = 2 ইউনিট। ড্রেন প্রতি মিনিটে খালি করে: \\frac{60}{15} = 4 ইউনিট। যখন দুটি পাইপ এবং ড্রেন একসাথে খোলা হয়, তখন প্রতি মিনিটে ট্যাঙ্কে নেট জলের পরিমাণ হয়: = (3 + 2 - 4) ইউনিট = 1 ইউনিট ট্যাঙ্কটি অর্ধেক পূর্ণ আছে, অর্থাৎ ৬০ ইউনিটের \\frac{1}{2} = 30 ইউনিট পূর্ণ আছে। বাকি (60 - 30) = 30 ইউনিট পূরণ করতে হবে। যেহেতু প্রতি মিনিটে ১ ইউনিট পূরণ হয়, তাই বাকি ৩০ ইউনিট পূরণ করতে সময় লাগবে: = \\frac{30}{1} মিনিট = 30 মিনিট$",
+        "subject": "গণিত",
+        "topic": "নল ও চৌবাচ্চা (Pipes and cistern)",
+        "exam": "Bangladesh Bank Assistant Director-2026 | BB-2026",
+        "questionSource": "Bangladesh Bank Assistant Director-2026 | BB-2026 | গণিত | নল ও চৌবাচ্চা (Pipes and cistern)",
+        "difficulty": "Medium",
+        "tags": [
+          "গণিত",
+          "46th BCS Preliminary",
+          "গণিত",
+          "নল ও চৌবাচ্চা (Pipes and cistern)",
+          "Bangladesh Bank Assistant Director-2026 | BB-2026",
+          "Bangladesh Bank Assistant Director-2026",
+          "BB-2026"
+        ]
+      }
+    ],
+    "bulkCount": 59,
+    "createdAt": "2026-09-04T20:27:06.851Z"
+  },
+  {
+    "id": "pr-1788619146195-206",
+    "prNumber": 105,
+    "title": "feat(math): Add profit & loss practical MCQ",
+    "commitMessage": "Added standard 20% markup calculation with Bengali explanation.",
+    "action": "ADD",
+    "status": "PENDING",
+    "proposerId": "usr-demo-1",
+    "proposerName": "Tanvir Hossain (Free Student)",
+    "proposerEmail": "tanvir@uttoron.edu",
+    "proposerRole": "CLIENT",
+    "proposedQuestion": {
+      "text": "একটি দ্রব্যের ক্রয়মূল্য ৮০০ টাকা। ২০% লাভে বিক্রয়মূল্য কত?",
+      "options": [
+        "৯৬০ টাকা",
+        "৯০০ টাকা",
+        "৮৫০ টাকা",
+        "১০০০ টাকা"
+      ],
+      "correctOptionIndex": 0,
+      "correctOptionIndices": [
+        0
+      ],
+      "isMultiSelect": false,
+      "explanation": "বিক্রয়মূল্য = ৮০০ + (৮০০ × ২০/১০০) = ৮০০ + ১৬০ = ৯৬০ টাকা।",
+      "subject": "Mathematics",
+      "topic": "Profit & Loss",
+      "subtopic": "",
+      "exam": "",
+      "questionSource": "",
+      "difficulty": "Easy",
+      "tags": [
+        "Mathematics"
+      ]
+    },
+    "createdAt": "2026-09-05T14:39:06.201Z"
+  }
+]

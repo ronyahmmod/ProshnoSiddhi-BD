@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "PROSHNOSIDDHI BD",
+    "slug": "proshnosiddhi-bd",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#059669"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.proshnosiddhi.bd"
+    },
+    "android": {
+      "package": "com.proshnosiddhi.bd",
+      "versionCode": 1
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": []
+  }
+}

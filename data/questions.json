@@ -1,0 +1,460 @@
+[
+  {
+    "id": "q-sc-1",
+    "text": "Which organelle is known as the powerhouse of the cell and generates energy in the form of $\\text{ATP}$ (Adenosine Triphosphate)?",
+    "options": [
+      "Ribosome",
+      "Mitochondria",
+      "Golgi Apparatus",
+      "Endoplasmic Reticulum"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Mitochondria generate most of the chemical energy through cellular respiration, synthesizing $\\text{ATP}$ molecules: $\\text{C}_6\\text{H}_{12}\\text{O}_6 + 6\\text{O}_2 \\rightarrow 6\\text{CO}_2 + 6\\text{H}_2\\text{O} + 36\\text{ to }38\\text{ ATP}$.",
+    "subject": "General Science",
+    "topic": "Biology",
+    "subtopic": "Cell Biology & Genetics",
+    "exam": "46th & 45th BCS Cadre Preliminary",
+    "difficulty": "Easy",
+    "tags": [
+      "Biology",
+      "Cell",
+      "Basics",
+      "BCS"
+    ]
+  },
+  {
+    "id": "q-sc-2",
+    "text": "What is the primary gas found in the Sun's composition responsible for nuclear fusion?",
+    "options": [
+      "Helium ($^4\\text{He}$)",
+      "Oxygen ($^{16}\\text{O}$)",
+      "Hydrogen ($^1\\text{H}$)",
+      "Nitrogen ($^{14}\\text{N}$)"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Hydrogen accounts for approximately $73\\%$ of the Sun's total mass. Nuclear fusion in the core converts Hydrogen into Helium via the proton-proton chain reaction: $4\\,^1\\text{H} \\rightarrow \\,^4\\text{He} + 2e^+ + 2\\nu_e + 26.7\\text{ MeV}$.",
+    "subject": "General Science",
+    "topic": "Astronomy & Environment",
+    "subtopic": "Solar System & Universe",
+    "exam": "46th & 45th BCS Cadre Preliminary",
+    "difficulty": "Easy",
+    "tags": [
+      "Astronomy",
+      "Sun",
+      "Physics"
+    ]
+  },
+  {
+    "id": "q-sc-3",
+    "text": "Which fundamental force is responsible for holding atomic nuclei together against electrostatic repulsion?",
+    "options": [
+      "Gravitational Force",
+      "Electromagnetic Force",
+      "Weak Nuclear Force",
+      "Strong Nuclear Force"
+    ],
+    "correctOptionIndex": 3,
+    "explanation": "The Strong Nuclear Force binds quarks together to form nucleons and overcomes Coulomb repulsion between positively charged protons at subatomic distances ($r \\le 10^{-15}\\text{ m}$).",
+    "subject": "General Science",
+    "topic": "Physics",
+    "subtopic": "Nuclear Physics",
+    "exam": "46th & 45th BCS Cadre Preliminary",
+    "difficulty": "Medium",
+    "tags": [
+      "Physics",
+      "Nuclear"
+    ]
+  },
+  {
+    "id": "q-sc-4",
+    "text": "Which element has the highest electrical conductivity ($\\\\sigma \\approx 6.30 \\times 10^7\\text{ S/m}$) at room temperature ($20^\\circ\\text{C}$)?",
+    "options": [
+      "Copper ($\\text{Cu}$)",
+      "Gold ($\\text{Au}$)",
+      "Silver ($\\text{Ag}$)",
+      "Aluminum ($\\text{Al}$)"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "Silver ($\\text{Ag}$) possesses the highest electrical conductivity ($\\\\sigma = 6.30 \\times 10^7\\text{ S/m}$) followed by Copper ($\\\\sigma = 5.96 \\times 10^7\\text{ S/m}$) and Gold ($\\\\sigma = 4.10 \\times 10^7\\text{ S/m}$).",
+    "subject": "General Science",
+    "topic": "Chemistry",
+    "subtopic": "Periodic Table & Elements",
+    "exam": "46th & 45th BCS Cadre Preliminary",
+    "difficulty": "Medium",
+    "tags": [
+      "Chemistry",
+      "Elements"
+    ]
+  },
+  {
+    "id": "q-math-1",
+    "text": "If a train traveling at $v = 60\\text{ km/h}$ crosses a telegraph post in $t = 9\\text{ seconds}$, what is the length of the train in meters?",
+    "options": [
+      "$120\\text{ m}$",
+      "$150\\text{ m}$",
+      "$180\\text{ m}$",
+      "$200\\text{ m}$",
+      "$240\\text{ m}$"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "First convert speed to $\\text{m/s}$:\n$$v = 60 \\times \\frac{5}{18} = \\frac{50}{3}\\text{ m/s}$$\nUsing distance formula $d = v \\times t$:\n$$L = \\frac{50}{3} \\times 9 = 150\\text{ meters}$$",
+    "subject": "Mathematics",
+    "topic": "Arithmetic",
+    "subtopic": "Speed, Time & Distance",
+    "exam": "Combined 10 Banks Officer & Senior Officer",
+    "difficulty": "Medium",
+    "tags": [
+      "Math",
+      "Speed",
+      "Bank",
+      "BCS"
+    ]
+  },
+  {
+    "id": "q-math-multi-1",
+    "text": "Which of the following numbers are real roots of the algebraic polynomial equation $x(x - 3)(x + 2) = 0$? (Select all correct options)",
+    "options": [
+      "$x = 0$",
+      "$x = 1$",
+      "$x = 3$",
+      "$x = -2$",
+      "$x = 5$"
+    ],
+    "correctOptionIndex": 0,
+    "correctOptionIndices": [
+      0,
+      2,
+      3
+    ],
+    "isMultiSelect": true,
+    "explanation": "By the Zero Product Property, $x(x - 3)(x + 2) = 0$ holds when $x = 0$, $x - 3 = 0 \\implies x = 3$, or $x + 2 = 0 \\implies x = -2$. Therefore, Option A ($0$), Option C ($3$), and Option D ($-2$) are all correct.",
+    "subject": "Mathematics",
+    "topic": "Algebra",
+    "subtopic": "Quadratic Equations",
+    "exam": "GRE General Examination (Quant & Verbal)",
+    "difficulty": "Medium",
+    "tags": [
+      "Math",
+      "Algebra",
+      "Multi-Select",
+      "GRE"
+    ]
+  },
+  {
+    "id": "q-math-multi-2",
+    "text": "Which of the following numbers are prime numbers? (Select all that apply)",
+    "options": [
+      "$17$",
+      "$21$",
+      "$29$",
+      "$33$",
+      "$41$"
+    ],
+    "correctOptionIndex": 0,
+    "correctOptionIndices": [
+      0,
+      2,
+      4
+    ],
+    "isMultiSelect": true,
+    "explanation": "$17$, $29$, and $41$ are prime numbers because they have only two positive factors ($1$ and themselves). Meanwhile, $21 = 3 \\times 7$ and $33 = 3 \\times 11$ are composite.",
+    "subject": "Mathematics",
+    "topic": "Quantitative Reasoning",
+    "subtopic": "Set Theory & Venn Diagrams",
+    "exam": "Combined 10 Banks Officer & Senior Officer",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "Primes",
+      "Bank",
+      "Multi-Select"
+    ]
+  },
+  {
+    "id": "q-math-2",
+    "text": "What is the sum of the interior angles of a convex polygon with $n = 8$ sides (octagon)?",
+    "options": [
+      "$1080^\\circ$",
+      "$1260^\\circ$",
+      "$900^\\circ$",
+      "$1440^\\circ$"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "The formula for the sum of interior angles of an $n$-sided polygon is:\n$$S = (n - 2) \\times 180^\\circ$$\nFor an octagon ($n = 8$):\n$$S = (8 - 2) \\times 180^\\circ = 6 \\times 180^\\circ = 1080^\\circ$$",
+    "subject": "Mathematics",
+    "topic": "Geometry",
+    "subtopic": "Polygons & Angles",
+    "exam": "GRE General Examination (Quant & Verbal)",
+    "difficulty": "Easy",
+    "tags": [
+      "Math",
+      "Geometry",
+      "GRE"
+    ]
+  },
+  {
+    "id": "q-math-3",
+    "text": "In a class of $N = 50$ students, $n(P) = 30$ study Physics and $n(C) = 25$ study Chemistry. If $n(P \\cap C) = 10$ study both, how many study neither?",
+    "options": [
+      "$5$",
+      "$8$",
+      "$10$",
+      "$15$"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "By Principle of Inclusion-Exclusion:\n$$n(P \\cup C) = n(P) + n(C) - n(P \\cap C) = 30 + 25 - 10 = 45$$\nStudents studying neither:\n$$N - n(P \\cup C) = 50 - 45 = 5$$",
+    "subject": "Mathematics",
+    "topic": "Quantitative Reasoning",
+    "subtopic": "Set Theory & Venn Diagrams",
+    "exam": "Combined 10 Banks Officer & Senior Officer",
+    "difficulty": "Medium",
+    "tags": [
+      "Math",
+      "Sets",
+      "Bank"
+    ]
+  },
+  {
+    "id": "q-math-4",
+    "text": "If $\\log_2 (x + 3) = 5$, what is the real value of $x$?",
+    "options": [
+      "$29$",
+      "$27$",
+      "$32$",
+      "$25$"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "By exponential conversion of logarithm:\n$$\\log_b(y) = c \\iff y = b^c$$\n$$x + 3 = 2^5 = 32 \\implies x = 32 - 3 = 29$$",
+    "subject": "Mathematics",
+    "topic": "Algebra",
+    "subtopic": "Logarithms & Exponents",
+    "exam": "46th & 45th BCS Cadre Preliminary",
+    "difficulty": "Hard",
+    "tags": [
+      "Math",
+      "Logarithms",
+      "BCS"
+    ]
+  },
+  {
+    "id": "q-math-5",
+    "text": "Find the roots of the quadratic equation $2x^2 - 7x + 3 = 0$ using the quadratic formula $x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$:",
+    "options": [
+      "$x = 3, \\frac{1}{2}$",
+      "$x = -3, -\\frac{1}{2}$",
+      "$x = 2, 3$",
+      "$x = 1, \\frac{3}{2}$"
+    ],
+    "correctOptionIndex": 0,
+    "explanation": "Here $a = 2, b = -7, c = 3$. Discriminant:\n$$\\Delta = (-7)^2 - 4(2)(3) = 49 - 24 = 25$$\n$$x = \\frac{7 \\pm \\sqrt{25}}{4} = \\frac{7 \\pm 5}{4}$$\nThus $x_1 = \\frac{12}{4} = 3$ and $x_2 = \\frac{2}{4} = \\frac{1}{2}$.",
+    "subject": "Mathematics",
+    "topic": "Algebra",
+    "subtopic": "Quadratic Equations",
+    "exam": "GRE General Examination (Quant & Verbal)",
+    "difficulty": "Medium",
+    "tags": [
+      "Math",
+      "Algebra",
+      "GRE",
+      "BCS"
+    ]
+  },
+  {
+    "id": "q-cs-1",
+    "text": "Which data structure operates strictly on a Last-In, First-Out ($\\text{LIFO}$) principle?",
+    "options": [
+      "Queue ($\\text{FIFO}$)",
+      "Stack ($\\text{LIFO}$)",
+      "Array",
+      "Linked List"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "A Stack follows $\\text{LIFO}$ where push operations append to top and pop operations retrieve from top in $O(1)$ time.",
+    "subject": "Computer Science",
+    "topic": "Data Structures",
+    "subtopic": "Stacks & Queues",
+    "exam": "46th & 45th BCS Cadre Preliminary",
+    "difficulty": "Easy",
+    "tags": [
+      "CS",
+      "DataStructures",
+      "ICT"
+    ]
+  },
+  {
+    "id": "q-cs-2",
+    "text": "What is the worst-case asymptotic time complexity $T(n)$ of standard QuickSort without randomized pivot selection?",
+    "options": [
+      "$O(n \\log n)$",
+      "$O(n^2)$",
+      "$O(n)$",
+      "$O(2^n)$"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "When the pivot partitions into unbalanced subproblems of sizes $0$ and $n-1$, recurrence $T(n) = T(n-1) + O(n)$ yields worst-case time $O(n^2)$.",
+    "subject": "Computer Science",
+    "topic": "Algorithms",
+    "subtopic": "Time Complexity $O(n)$",
+    "exam": "Combined 10 Banks Officer & Senior Officer",
+    "difficulty": "Medium",
+    "tags": [
+      "CS",
+      "Algorithms",
+      "Bank"
+    ]
+  },
+  {
+    "id": "q-cs-3",
+    "text": "In $\\text{HTTP/2}$, what core feature enables multiplexing of bidirectional streams over a single $\\text{TCP}$ connection?",
+    "options": [
+      "Gzip Header Compression",
+      "Binary Framing Layer",
+      "Server Push Only",
+      "WebSockets Tunneling"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "The Binary Framing Layer in $\\text{HTTP/2}$ breaks communication into interleaved binary frames, eliminating Head-of-Line blocking at application level.",
+    "subject": "Computer Science",
+    "topic": "Networking",
+    "subtopic": "HTTP/2 & Security Protocols",
+    "exam": "Combined 10 Banks Officer & Senior Officer",
+    "difficulty": "Hard",
+    "tags": [
+      "CS",
+      "Web",
+      "Protocols"
+    ]
+  },
+  {
+    "id": "q-eng-1",
+    "text": "Choose the most precise synonym for the word \"EPHEMERAL\":",
+    "options": [
+      "Eternal",
+      "Transient",
+      "Substantial",
+      "Continuous"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Ephemeral means lasting for a very brief duration (transient, fleeting, evanescent).",
+    "subject": "English",
+    "topic": "Vocabulary",
+    "subtopic": "GRE High Frequency Words",
+    "exam": "GRE General Examination (Quant & Verbal)",
+    "difficulty": "Medium",
+    "tags": [
+      "English",
+      "Vocabulary",
+      "GRE",
+      "Bank"
+    ]
+  },
+  {
+    "id": "q-eng-2",
+    "text": "Identify the grammatically correct sentence adhering to Subject-Verb Agreement rules:",
+    "options": [
+      "Neither of the candidate were present.",
+      "Neither of the candidates was present.",
+      "Neither of the candidates were present.",
+      "Neither candidates was present."
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "\"Neither\" used as a singular pronoun governing the prepositional phrase \"of the candidates\" requires a singular verb (\"was\").",
+    "subject": "English",
+    "topic": "Grammar",
+    "subtopic": "Subject-Verb Agreement",
+    "exam": "46th & 45th BCS Cadre Preliminary",
+    "difficulty": "Hard",
+    "tags": [
+      "English",
+      "Grammar",
+      "BCS"
+    ]
+  },
+  {
+    "id": "q-eng-3",
+    "text": "What is the meaning of the English idiom \"To bite the bullet\"?",
+    "options": [
+      "To engage in armed combat",
+      "To face an inevitable difficult situation with fortitude",
+      "To make a rash miscalculation",
+      "To withdraw from a negotiation"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "\"To bite the bullet\" means to accept or confront a harsh, painful ordeal with courage and resolve.",
+    "subject": "English",
+    "topic": "Idioms & Phrases",
+    "subtopic": "Common Idioms",
+    "exam": "Primary Assistant Teacher & NTRCA",
+    "difficulty": "Easy",
+    "tags": [
+      "English",
+      "Idioms",
+      "Primary"
+    ]
+  },
+  {
+    "id": "q-bd-1",
+    "text": "In which year was the historic Language Movement crowned with supreme sacrifice on 21st February, later recognized by UNESCO as International Mother Language Day?",
+    "options": [
+      "1947",
+      "1952",
+      "1966",
+      "1971"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "On February 21, 1952 (৮ই ফাল্গুন ১৩৫৮), Salam, Barkat, Rafiq, Jabbar and others laid down their lives in Dhaka to establish Bangla as a state language.",
+    "subject": "Bangladesh Affairs",
+    "topic": "History",
+    "subtopic": "1952 Language Movement",
+    "exam": "46th & 45th BCS Cadre Preliminary",
+    "difficulty": "Easy",
+    "tags": [
+      "Bangladesh",
+      "History",
+      "BCS"
+    ]
+  },
+  {
+    "id": "q-bd-2",
+    "text": "Which line of latitude passes through the central geographical territory of Bangladesh?",
+    "options": [
+      "Tropic of Capricorn ($23.5^\\circ\\text{ S}$)",
+      "Equator ($0^\\circ$)",
+      "Tropic of Cancer ($23.5^\\circ\\text{ N}$)",
+      "Prime Meridian ($0^\\circ$)"
+    ],
+    "correctOptionIndex": 2,
+    "explanation": "The Tropic of Cancer ($23^\\circ 30'\\text{ N}$) passes across Bangladesh through Cumilla, Munshiganj, Faridpur, and Chuadanga districts.",
+    "subject": "Bangladesh Affairs",
+    "topic": "Geography",
+    "subtopic": "Geography of Bangladesh",
+    "exam": "46th & 45th BCS Cadre Preliminary",
+    "difficulty": "Medium",
+    "tags": [
+      "Bangladesh",
+      "Geography"
+    ]
+  },
+  {
+    "id": "q-bd-3",
+    "text": "Under which sector was the capital city Dhaka organized during the 1971 Liberation War of Bangladesh?",
+    "options": [
+      "Sector 1",
+      "Sector 2",
+      "Sector 7",
+      "Sector 10"
+    ],
+    "correctOptionIndex": 1,
+    "explanation": "Sector 2 encompassed Dhaka, Faridpur, and parts of Noakhali and Cumilla, commanded initially by Major Khaled Mosharraf and later by Major ATM Haider.",
+    "subject": "Bangladesh Affairs",
+    "topic": "History",
+    "subtopic": "1971 Liberation War",
+    "exam": "46th & 45th BCS Cadre Preliminary",
+    "difficulty": "Hard",
+    "tags": [
+      "Bangladesh",
+      "History",
+      "BCS"
+    ]
+  }
+]

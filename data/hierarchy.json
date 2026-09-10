@@ -1,0 +1,268 @@
+[
+  {
+    "id": "sub-math",
+    "name": "Mathematics",
+    "examIds": [
+      "exam-bcs",
+      "exam-bank",
+      "exam-gre",
+      "exam-primary"
+    ],
+    "topics": [
+      {
+        "name": "Algebra",
+        "subtopics": [
+          "Quadratic Equations",
+          "Logarithms & Exponents",
+          "Sequences & Series",
+          "Linear Inequalities"
+        ]
+      },
+      {
+        "name": "Arithmetic",
+        "subtopics": [
+          "Speed, Time & Distance",
+          "Work & Pipes",
+          "Profit & Loss",
+          "Ratios & Percentages",
+          "Simple & Compound Interest"
+        ]
+      },
+      {
+        "name": "Geometry",
+        "subtopics": [
+          "Triangles & Circles",
+          "Polygons & Angles",
+          "Mensuration 2D & 3D",
+          "Coordinate Geometry"
+        ]
+      },
+      {
+        "name": "Quantitative Reasoning",
+        "subtopics": [
+          "Set Theory & Venn Diagrams",
+          "Permutations & Combinations",
+          "Probability Theory",
+          "Data Sufficiency"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sub-english",
+    "name": "English",
+    "examIds": [
+      "exam-bcs",
+      "exam-bank",
+      "exam-gre",
+      "exam-primary",
+      "exam-medical"
+    ],
+    "topics": [
+      {
+        "name": "Grammar",
+        "subtopics": [
+          "Subject-Verb Agreement",
+          "Right Form of Verbs",
+          "Prepositions",
+          "Conditionals & Modals",
+          "Voice & Narration"
+        ]
+      },
+      {
+        "name": "Vocabulary",
+        "subtopics": [
+          "Synonyms & Antonyms",
+          "GRE High Frequency Words",
+          "Analogy",
+          "Spelling & One-word Substitution"
+        ]
+      },
+      {
+        "name": "Literature",
+        "subtopics": [
+          "Elizabethan & Romantic Era",
+          "Victorian & Modern Poets",
+          "Famous Quotes & Characters"
+        ]
+      },
+      {
+        "name": "Idioms & Phrases",
+        "subtopics": [
+          "Common Idioms",
+          "Phrasal Verbs",
+          "Proverbs"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sub-science",
+    "name": "General Science",
+    "examIds": [
+      "exam-bcs",
+      "exam-primary",
+      "exam-medical"
+    ],
+    "topics": [
+      {
+        "name": "Physics",
+        "subtopics": [
+          "Mechanics & Gravitation",
+          "Electricity & Magnetism",
+          "Optics & Wave Motion",
+          "Nuclear Physics"
+        ]
+      },
+      {
+        "name": "Chemistry",
+        "subtopics": [
+          "Periodic Table & Elements",
+          "Acids, Bases & Salts",
+          "Organic Compounds",
+          "Chemical Bonding"
+        ]
+      },
+      {
+        "name": "Biology",
+        "subtopics": [
+          "Cell Biology & Genetics",
+          "Human Anatomy & Physiology",
+          "Diseases & Nutrition",
+          "Plant Kingdom"
+        ]
+      },
+      {
+        "name": "Astronomy & Environment",
+        "subtopics": [
+          "Solar System & Universe",
+          "Ecology & Climate Change",
+          "Pollution & Conservation"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sub-ict",
+    "name": "Computer Science",
+    "examIds": [
+      "exam-bcs",
+      "exam-bank"
+    ],
+    "topics": [
+      {
+        "name": "Data Structures",
+        "subtopics": [
+          "Stacks & Queues",
+          "Trees & Graphs",
+          "Arrays & Linked Lists",
+          "Hash Tables"
+        ]
+      },
+      {
+        "name": "Algorithms",
+        "subtopics": [
+          "Sorting & Searching",
+          "Time Complexity $O(n)$",
+          "Dynamic Programming",
+          "Graph Traversal"
+        ]
+      },
+      {
+        "name": "Networking",
+        "subtopics": [
+          "TCP/IP & OSI Model",
+          "HTTP/2 & Security Protocols",
+          "IP Addressing & Subnetting",
+          "Routing & Switching"
+        ]
+      },
+      {
+        "name": "Database & Cybersecurity",
+        "subtopics": [
+          "SQL Queries & Joins",
+          "Normalization",
+          "Cryptography & Encryption",
+          "Malware & Firewalls"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sub-bd",
+    "name": "Bangladesh Affairs",
+    "examIds": [
+      "exam-bcs",
+      "exam-bank",
+      "exam-primary"
+    ],
+    "topics": [
+      {
+        "name": "History",
+        "subtopics": [
+          "1952 Language Movement",
+          "1966 Six Point Movement",
+          "1969 Mass Uprising",
+          "1971 Liberation War"
+        ]
+      },
+      {
+        "name": "Constitution",
+        "subtopics": [
+          "Fundamental Rights",
+          "Articles & Amendments",
+          "Executive & Judiciary",
+          "Constitutional Bodies"
+        ]
+      },
+      {
+        "name": "Geography",
+        "subtopics": [
+          "Rivers & Hills of Bangladesh",
+          "Climate & Weather",
+          "Mineral Resources & Agriculture",
+          "Divisions & Districts"
+        ]
+      },
+      {
+        "name": "Economy & National Achievements",
+        "subtopics": [
+          "Mega Projects (Padma Bridge, Metro Rail)",
+          "GDP & Five Year Plans",
+          "Monetary Policy & Budget",
+          "Bangabandhu Satellite"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "sub-gk",
+    "name": "General Knowledge",
+    "examIds": [
+      "exam-bcs",
+      "exam-bank",
+      "exam-primary",
+      "exam-medical"
+    ],
+    "topics": [
+      {
+        "name": "International Organizations",
+        "subtopics": [
+          "UN & Specialized Agencies",
+          "World Bank & IMF",
+          "Regional Blocs (SAARC, ASEAN, EU)",
+          "International Treaties"
+        ]
+      },
+      {
+        "name": "World Geography",
+        "subtopics": [
+          "Oceans, Straits & Canals",
+          "Capital & Currencies",
+          "Major Mountains & Deserts",
+          "Time Zones & Latitudes"
+        ]
+      }
+    ]
+  }
+]
